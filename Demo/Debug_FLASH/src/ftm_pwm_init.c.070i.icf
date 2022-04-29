@@ -1,0 +1,68 @@
+Parsed function:FTM_PWM_DEINIT
+Parsed function:FTM_PWM_INIT
+Dump after hash based groups
+Congruence classes: 2 (unique hash values: 2), with total: 2 items
+Class size histogram [num of members]: number of classe number of classess
+[1]: 2 classes
+
+
+Dump after WPA based types groups
+Congruence classes: 2 (unique hash values: 2), with total: 2 items
+Class size histogram [num of members]: number of classe number of classess
+[1]: 2 classes
+
+
+Worklist has been filled with: 0
+Address reference subdivision created: 0 new classes.
+Dump after callgraph-based congruence reduction
+Congruence classes: 2 (unique hash values: 2), with total: 2 items
+Class size histogram [num of members]: number of classe number of classess
+[1]: 2 classes
+
+
+Init called for 0 items (0.00%).
+Dump after full equality comparison of groups
+Congruence classes: 2 (unique hash values: 2), with total: 2 items
+Class size histogram [num of members]: number of classe number of classess
+[1]: 2 classes
+
+
+Worklist has been filled with: 0
+Address reference subdivision created: 0 new classes.
+Congruence classes: 2 (unique hash values: 2), with total: 2 items
+Class size histogram [num of members]: number of classe number of classess
+[1]: 2 classes
+
+
+
+Item count: 2
+Congruent classes before: 2, after: 2
+Average class size before: 1.00, after: 1.00
+Average non-singular class size: 0.00, count: 0
+Equal symbols: 0
+Fraction of visited symbols: 0.00%
+
+FTM_PWM_DEINIT ()
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  Ftm_Pwm_Ip_DeInit (0);
+  return;
+
+}
+
+
+FTM_PWM_INIT ()
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  Ftm_Pwm_Ip_Init (0, &Ftm_Pwm_Ip_BOARD_InitPeripherals_UserCfg0);
+  # DEBUG BEGIN_STMT
+  Ftm_Pwm_Ip_UpdatePwmPeriod (0, 20480, 1);
+  # DEBUG BEGIN_STMT
+  Ftm_Pwm_Ip_UpdatePwmChannel (0, 0, 0, 0, 1);
+  return;
+
+}
+
+

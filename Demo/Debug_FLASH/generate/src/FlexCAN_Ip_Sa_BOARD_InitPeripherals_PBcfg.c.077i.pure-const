@@ -1,0 +1,38 @@
+callgraph:
+
+FlexCan_Callback/2 (FlexCan_Callback) @06966c40
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: FlexCAN_Config0/1 (addr)
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+
+
+ ordered call graph: reduced for nothrow
+
+
+
+MALLOC LATTICE Initial:
+
+
+MALLOC LATTICE after propagation:
+callgraph:
+
+FlexCan_Callback/2 (FlexCan_Callback) @06966c40
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: FlexCAN_Config0/1 (addr)
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+
+
+ ordered call graph: reduced
+

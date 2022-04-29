@@ -1,0 +1,4 @@
+lpuart_init.c:21:6:LPUART_INIT	8	static
+lpuart_init.c:35:6:LPUART_DEINIT	0	static
+lpuart_init.c:40:6:U1_printf	16	static
+lpuart_init.c:49:6:Lpuart1_Callback	0	static

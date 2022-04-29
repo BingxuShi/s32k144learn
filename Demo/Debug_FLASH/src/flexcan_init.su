@@ -1,0 +1,2 @@
+flexcan_init.c:6:6:FLEXCAN_INIT	8	static
+flexcan_init.c:23:6:FlexCan_Callback	0	static

@@ -1,0 +1,106 @@
+Parsed function:Lpuart1_Callback
+Parsed function:U1_printf
+Parsed function:LPUART_DEINIT
+Parsed function:LPUART_INIT
+Dump after hash based groups
+Congruence classes: 4 (unique hash values: 4), with total: 4 items
+Class size histogram [num of members]: number of classe number of classess
+[1]: 4 classes
+
+
+Dump after WPA based types groups
+Congruence classes: 4 (unique hash values: 4), with total: 4 items
+Class size histogram [num of members]: number of classe number of classess
+[1]: 4 classes
+
+
+Worklist has been filled with: 0
+Address reference subdivision created: 0 new classes.
+Dump after callgraph-based congruence reduction
+Congruence classes: 4 (unique hash values: 4), with total: 4 items
+Class size histogram [num of members]: number of classe number of classess
+[1]: 4 classes
+
+
+Init called for 0 items (0.00%).
+Dump after full equality comparison of groups
+Congruence classes: 4 (unique hash values: 4), with total: 4 items
+Class size histogram [num of members]: number of classe number of classess
+[1]: 4 classes
+
+
+Worklist has been filled with: 0
+Address reference subdivision created: 0 new classes.
+Congruence classes: 4 (unique hash values: 4), with total: 4 items
+Class size histogram [num of members]: number of classe number of classess
+[1]: 4 classes
+
+
+
+Item count: 4
+Congruent classes before: 4, after: 4
+Average class size before: 1.00, after: 1.00
+Average non-singular class size: 0.00, count: 0
+Equal symbols: 0
+Fraction of visited symbols: 0.00%
+
+Lpuart1_Callback (const uint8 HwInstance, const Lpuart_Uart_Ip_EventType Event, void * UserData)
+{
+  <bb 2> [local count: 107374]:
+
+  <bb 3> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+
+  <bb 4> [local count: 1073741824]:
+  goto <bb 3>; [100.00%]
+
+}
+
+
+U1_printf (char * fmt)
+{
+  unsigned int _1;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  MEM[(char * {ref-all})&USART1_TX_BUF] = MEM[(char * {ref-all})fmt_3(D)];
+  # DEBUG BEGIN_STMT
+  _1 = strlen (&USART1_TX_BUF);
+  Lpuart_Uart_Ip_SyncSend (1, &USART1_TX_BUF, _1, 4294967295);
+  # DEBUG BEGIN_STMT
+  memset (&USART1_TX_BUF, 0, 200);
+  return;
+
+}
+
+
+LPUART_DEINIT ()
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  Lpuart_Uart_Ip_Deinit (1);
+  return;
+
+}
+
+
+LPUART_INIT ()
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  IntCtrl_Ip_Init (&IntCtrlConfig_0);
+  # DEBUG BEGIN_STMT
+  IntCtrl_Ip_EnableIrq (33);
+  # DEBUG BEGIN_STMT
+  IntCtrl_Ip_InstallHandler (33, LPUART_UART_IP_1_IRQHandler, 0B);
+  # DEBUG BEGIN_STMT
+  Lpuart_Uart_Ip_Init (1, &Lpuart_Uart_Ip_xHwConfigPB_1_BOARD_INITPERIPHERALS);
+  # DEBUG BEGIN_STMT
+  Lpuart_Uart_Ip_AsyncReceive (1, &rxbuffer, 1);
+  return;
+
+}
+
+
