@@ -1,0 +1,100 @@
+callgraph:
+
+CAN0_ORED_0_15_MB_IRQHandler/34 (CAN0_ORED_0_15_MB_IRQHandler) @06e41b60
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: INTERRUPT_INIT/28 (addr)
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+LPUART_UART_IP_1_IRQHandler/33 (LPUART_UART_IP_1_IRQHandler) @06e41a80
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: INTERRUPT_INIT/28 (addr)
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+IntCtrl_Ip_InstallHandler/32 (IntCtrl_Ip_InstallHandler) @06e419a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: INTERRUPT_INIT/28 (1073741824 (estimated locally),1.00 per call) INTERRUPT_INIT/28 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+IntCtrl_Ip_EnableIrq/31 (IntCtrl_Ip_EnableIrq) @06e418c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: INTERRUPT_INIT/28 (1073741824 (estimated locally),1.00 per call) INTERRUPT_INIT/28 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+IntCtrl_Ip_Init/29 (IntCtrl_Ip_Init) @06e417e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: INTERRUPT_INIT/28 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+INTERRUPT_INIT/28 (INTERRUPT_INIT) @06e41380
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: IntCtrlConfig_0/30 (addr)LPUART_UART_IP_1_IRQHandler/33 (addr)CAN0_ORED_0_15_MB_IRQHandler/34 (addr)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: IntCtrl_Ip_InstallHandler/32 (1073741824 (estimated locally),1.00 per call) IntCtrl_Ip_EnableIrq/31 (1073741824 (estimated locally),1.00 per call) IntCtrl_Ip_InstallHandler/32 (1073741824 (estimated locally),1.00 per call) IntCtrl_Ip_EnableIrq/31 (1073741824 (estimated locally),1.00 per call) IntCtrl_Ip_Init/29 (1073741824 (estimated locally),1.00 per call) 
+Clearing variable flags:
+
+Function name:INTERRUPT_INIT/28:
+  locals read: 
+  locals written: 
+
+ ordered call graph: reduced
+INTERRUPT_INIT/28 (INTERRUPT_INIT) @06e41380
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @069cbc00
+  References: IntCtrlConfig_0/30 (addr)LPUART_UART_IP_1_IRQHandler/33 (addr)CAN0_ORED_0_15_MB_IRQHandler/34 (addr)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: IntCtrl_Ip_InstallHandler/32 (1073741824 (estimated locally),1.00 per call) IntCtrl_Ip_EnableIrq/31 (1073741824 (estimated locally),1.00 per call) IntCtrl_Ip_InstallHandler/32 (1073741824 (estimated locally),1.00 per call) IntCtrl_Ip_EnableIrq/31 (1073741824 (estimated locally),1.00 per call) IntCtrl_Ip_Init/29 (1073741824 (estimated locally),1.00 per call) 
+
+
+Function name:INTERRUPT_INIT/28:
+    locals read: 
+    locals written: 
+  globals read: ALL
+  globals written: ALL
+INTERRUPT_INIT ()
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  IntCtrl_Ip_Init (&IntCtrlConfig_0);
+  # DEBUG BEGIN_STMT
+  IntCtrl_Ip_EnableIrq (33);
+  # DEBUG BEGIN_STMT
+  IntCtrl_Ip_InstallHandler (33, LPUART_UART_IP_1_IRQHandler, 0B);
+  # DEBUG BEGIN_STMT
+  IntCtrl_Ip_EnableIrq (81);
+  # DEBUG BEGIN_STMT
+  IntCtrl_Ip_InstallHandler (81, CAN0_ORED_0_15_MB_IRQHandler, 0B);
+  return;
+
+}
+
+

@@ -1,0 +1,49 @@
+Variable index/10 is used by single function
+Ftm0_ch1_int ()
+{
+  static uint16 index = 0;
+  short unsigned int index.0_1;
+  short unsigned int _2;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  index.0_1 = index;
+  _2 = index.0_1 + 1;
+  index = _2;
+  # DEBUG BEGIN_STMT
+  if (_2 > 999)
+    goto <bb 3>; [33.00%]
+  else
+    goto <bb 4>; [67.00%]
+
+  <bb 3> [local count: 354334802]:
+  # DEBUG BEGIN_STMT
+  U1_printf ("ftm_int\r\n");
+  # DEBUG BEGIN_STMT
+  index = 0;
+
+  <bb 4> [local count: 1073741824]:
+  return;
+
+}
+
+
+FTM_INIT ()
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  IntCtrl_Ip_EnableIrq (99);
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_Init (0, &FTM_0_InitConfig_PB);
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_InitChannel (0, &FTM_0_ChannelConfig_PB[0]);
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_EnableChannelInterrupt (0, 1);
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_StartTimer (0, 37500);
+  return;
+
+}
+
+

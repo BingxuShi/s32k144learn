@@ -1,0 +1,96 @@
+Histogram:
+Flexcan0_callback (uint8 instance, Flexcan_Ip_EventType eventType, uint32 buffIdx, const struct Flexcan_Ip_StateType * flexcanState)
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG D#2 => rxData.msgId
+  # DEBUG a => (int) D#2
+  # DEBUG BEGIN_STMT
+  # DEBUG D#1 => rxData.dataLen
+  # DEBUG b => (int) D#1
+  # DEBUG BEGIN_STMT
+  FLEXCAN0_SEND ();
+  # DEBUG BEGIN_STMT
+  FlexCAN_Ip_Receive (0, 1, &rxData, 0);
+  return;
+
+}
+
+
+FLEXCAN0_SEND ()
+{
+  uint8 TXData[8];
+  struct Flexcan_Ip_DataInfoType rx_info;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  rx_info = {};
+  rx_info.data_length = 8;
+  rx_info.is_polling = 1;
+  # DEBUG BEGIN_STMT
+  TXData = "\x01\x02\x03\x04\x05\x06\x07";
+  # DEBUG BEGIN_STMT
+  FlexCAN_Ip_Send (0, 0, &rx_info, 20, &TXData);
+  rx_info ={v} {CLOBBER};
+  TXData ={v} {CLOBBER};
+  return;
+
+}
+
+
+FLEXCAN0_RX_INIT ()
+{
+  struct Flexcan_Ip_MsgBuffType rxData;
+  struct Flexcan_Ip_DataInfoType rx_info;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  rx_info = {};
+  rx_info.data_length = 8;
+  rx_info.is_polling = 1;
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  FlexCAN_Ip_ConfigRxMb (0, 1, &rx_info, 20);
+  # DEBUG BEGIN_STMT
+  FlexCAN_Ip_Receive (0, 1, &rxData, 0);
+  rx_info ={v} {CLOBBER};
+  rxData ={v} {CLOBBER};
+  return;
+
+}
+
+
+FLEXCAN0_INIT ()
+{
+  Flexcan_Ip_StatusType state;
+
+  <bb 2> [local count: 118111600]:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  state_5 = FlexCAN_Ip_Init_Privileged (0, &FlexCAN_State0, &FlexCAN_Config0);
+  # DEBUG state => state_5
+  # DEBUG BEGIN_STMT
+  goto <bb 4>; [100.00%]
+
+  <bb 3> [local count: 955630223]:
+  # DEBUG BEGIN_STMT
+  state_8 = FlexCAN_Ip_Init_Privileged (0, &FlexCAN_State0, &FlexCAN_Config0);
+  # DEBUG state => state_8
+
+  <bb 4> [local count: 1073741824]:
+  # state_1 = PHI <state_5(2), state_8(3)>
+  # DEBUG state => state_1
+  # DEBUG BEGIN_STMT
+  if (state_1 != 0)
+    goto <bb 3>; [89.00%]
+  else
+    goto <bb 5>; [11.00%]
+
+  <bb 5> [local count: 118111601]:
+  # DEBUG BEGIN_STMT
+  FlexCAN_Ip_SetStartMode_Privileged (0);
+  return;
+
+}
+
+

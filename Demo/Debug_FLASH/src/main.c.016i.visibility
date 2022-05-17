@@ -1,0 +1,169 @@
+
+Marking local functions:
+
+
+Marking externally visible functions: main
+
+
+Marking externally visible variables: exit_code
+
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Symbol table:
+
+FLEXCAN0_SEND/13 (FLEXCAN0_SEND) @0698d460
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/2 
+  Calls: 
+FLEXCAN0_RX_INIT/12 (FLEXCAN0_RX_INIT) @0698d380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/2 
+  Calls: 
+FLEXCAN0_INIT/11 (FLEXCAN0_INIT) @0698d2a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/2 
+  Calls: 
+FTM0_PWM_INIT/10 (FTM0_PWM_INIT) @0698d1c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/2 
+  Calls: 
+U1_printf/9 (U1_printf) @0698d0e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/2 
+  Calls: 
+LPUART_INIT/8 (LPUART_INIT) @0698d000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/2 
+  Calls: 
+INTERRUPT_INIT/7 (INTERRUPT_INIT) @06988ee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/2 
+  Calls: 
+g_pin_mux_InitConfigArr0/6 (g_pin_mux_InitConfigArr0) @0698c630
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: main/2 (addr)
+  Availability: not_available
+  Varpool flags:
+Port_Ci_Port_Ip_Init/5 (Port_Ci_Port_Ip_Init) @06988e00
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/2 
+  Calls: 
+Mcu_aClockConfigPB/4 (Mcu_aClockConfigPB) @0698c5a0
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: main/2 (addr)
+  Availability: not_available
+  Varpool flags: read-only
+Clock_Ip_Init/3 (Clock_Ip_Init) @06988d20
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/2 
+  Calls: 
+main/2 (main) @069888c0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: Mcu_aClockConfigPB/4 (addr)g_pin_mux_InitConfigArr0/6 (addr)exit_code/1 (read)exit_code/1 (read)
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: FLEXCAN0_SEND/13 FLEXCAN0_RX_INIT/12 FLEXCAN0_INIT/11 FTM0_PWM_INIT/10 U1_printf/9 LPUART_INIT/8 INTERRUPT_INIT/7 Port_Ci_Port_Ip_Init/5 Clock_Ip_Init/3 
+exit_code/1 (exit_code) @06ae6ea0
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible public
+  References: 
+  Referring: main/2 (read)main/2 (read)
+  Availability: available
+  Varpool flags: initialized
+main ()
+{
+  int D.6315;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  Clock_Ip_Init (&Mcu_aClockConfigPB[0]);
+  # DEBUG BEGIN_STMT
+  Port_Ci_Port_Ip_Init (6, &g_pin_mux_InitConfigArr0);
+  # DEBUG BEGIN_STMT
+  INTERRUPT_INIT ();
+  # DEBUG BEGIN_STMT
+  LPUART_INIT ();
+  # DEBUG BEGIN_STMT
+  U1_printf ("hello hello hello\r\n");
+  # DEBUG BEGIN_STMT
+  FTM0_PWM_INIT ();
+  # DEBUG BEGIN_STMT
+  FLEXCAN0_INIT ();
+  # DEBUG BEGIN_STMT
+  FLEXCAN0_RX_INIT ();
+  # DEBUG BEGIN_STMT
+  FLEXCAN0_SEND ();
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  exit_code.0_1 = exit_code;
+  if (exit_code.0_1 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 3>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  D.6315 = exit_code;
+  return D.6315;
+
+}
+
+

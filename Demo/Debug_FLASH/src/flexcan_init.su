@@ -1,0 +1,4 @@
+flexcan_init.c:12:6:FLEXCAN0_INIT	16	static
+flexcan_init.c:22:6:FLEXCAN0_RX_INIT	104	static
+flexcan_init.c:35:6:FLEXCAN0_SEND	40	static
+flexcan_init.c:51:6:Flexcan0_callback	8	static

@@ -1,0 +1,57 @@
+Histogram:
+Lpuart1_Callback (const uint8 HwInstance, const Lpuart_Uart_Ip_EventType Event, void * UserData)
+{
+  <bb 2> [local count: 107374]:
+
+  <bb 3> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+
+  <bb 4> [local count: 1073741824]:
+  goto <bb 3>; [100.00%]
+
+}
+
+
+U1_printf (char * fmt)
+{
+  unsigned int _1;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  MEM[(char * {ref-all})&USART1_TX_BUF] = MEM[(char * {ref-all})fmt_3(D)];
+  # DEBUG BEGIN_STMT
+  _1 = strlen (&USART1_TX_BUF);
+  Lpuart_Uart_Ip_SyncSend (1, &USART1_TX_BUF, _1, 4294967295);
+  # DEBUG BEGIN_STMT
+  memset (&USART1_TX_BUF, 0, 200);
+  return;
+
+}
+
+
+LPUART_DEINIT ()
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  Lpuart_Uart_Ip_Deinit (1);
+  return;
+
+}
+
+
+LPUART_INIT ()
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  IntCtrl_Ip_Init (&IntCtrlConfig_0);
+  # DEBUG BEGIN_STMT
+  Lpuart_Uart_Ip_Init (1, &Lpuart_Uart_Ip_xHwConfigPB_1_BOARD_INITPERIPHERALS);
+  # DEBUG BEGIN_STMT
+  Lpuart_Uart_Ip_AsyncReceive (1, &rxbuffer, 1);
+  return;
+
+}
+
+

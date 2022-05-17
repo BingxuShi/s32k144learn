@@ -1,0 +1,1018 @@
+Trivially needed symbols: Lpuart1_Callback U1_printf LPUART_DEINIT LPUART_INIT rxbuffer USART1_TX_BUF
+
+
+Initial Symbol table:
+
+memset/45 (memset) @06f61b60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: U1_printf/35 
+  Calls: 
+Lpuart_Uart_Ip_SyncSend/44 (Lpuart_Uart_Ip_SyncSend) @06f61a80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: U1_printf/35 
+  Calls: 
+strlen/43 (strlen) @06f619a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: U1_printf/35 
+  Calls: 
+Lpuart_Uart_Ip_Deinit/42 (Lpuart_Uart_Ip_Deinit) @06f617e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: LPUART_DEINIT/34 
+  Calls: 
+Lpuart_Uart_Ip_AsyncReceive/41 (Lpuart_Uart_Ip_AsyncReceive) @06f61620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: LPUART_INIT/33 
+  Calls: 
+Lpuart_Uart_Ip_xHwConfigPB_1_BOARD_INITPERIPHERALS/40 (Lpuart_Uart_Ip_xHwConfigPB_1_BOARD_INITPERIPHERALS) @06f58f30
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: LPUART_INIT/33 (addr)
+  Availability: not-ready
+  Varpool flags: read-only
+Lpuart_Uart_Ip_Init/39 (Lpuart_Uart_Ip_Init) @06f61540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: LPUART_INIT/33 
+  Calls: 
+IntCtrlConfig_0/38 (IntCtrlConfig_0) @06f58ea0
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: LPUART_INIT/33 (addr)
+  Availability: not-ready
+  Varpool flags: read-only
+IntCtrl_Ip_Init/37 (IntCtrl_Ip_Init) @06f61460
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: LPUART_INIT/33 
+  Calls: 
+Lpuart1_Callback/36 (Lpuart1_Callback) @06f61000
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @01733ea0
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: 
+U1_printf/35 (U1_printf) @06f5ce00
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @06f61000
+  References: USART1_TX_BUF/31 (write)USART1_TX_BUF/31 (addr)USART1_TX_BUF/31 (addr)USART1_TX_BUF/31 (addr)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: memset/45 Lpuart_Uart_Ip_SyncSend/44 strlen/43 
+LPUART_DEINIT/34 (LPUART_DEINIT) @06f5cb60
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @06f5ce00
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Lpuart_Uart_Ip_Deinit/42 
+LPUART_INIT/33 (LPUART_INIT) @06f5c8c0
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @06f5cb60
+  References: IntCtrlConfig_0/38 (addr)Lpuart_Uart_Ip_xHwConfigPB_1_BOARD_INITPERIPHERALS/40 (addr)rxbuffer/32 (addr)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Lpuart_Uart_Ip_AsyncReceive/41 Lpuart_Uart_Ip_Init/39 IntCtrl_Ip_Init/37 
+rxbuffer/32 (rxbuffer) @06f58948
+  Type: variable definition analyzed
+  Visibility: public
+  Aux: @06f5c8c0
+  References: 
+  Referring: LPUART_INIT/33 (addr)
+  Availability: not-ready
+  Varpool flags:
+USART1_TX_BUF/31 (USART1_TX_BUF) @06f588b8
+  Type: variable definition analyzed
+  Visibility: public
+  Aux: @06f58948
+  References: 
+  Referring: U1_printf/35 (write)U1_printf/35 (addr)U1_printf/35 (addr)U1_printf/35 (addr)
+  Availability: not-ready
+  Varpool flags:
+DevAssert/30 (DevAssert) @06ed38c0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_FlushRxBuffer/29 (Lpuart_Uart_Ip_FlushRxBuffer) @06a60620
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_FlushTxBuffer/28 (Lpuart_Uart_Ip_FlushTxBuffer) @06a60380
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_CheckTimeout/27 (Lpuart_Uart_Ip_CheckTimeout) @06a600e0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_StartTimeout/26 (Lpuart_Uart_Ip_StartTimeout) @06a56e00
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_ClearErrorFlags/25 (Lpuart_Uart_Ip_ClearErrorFlags) @06a56b60
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_ClearStatusFlagWithMask/24 (Lpuart_Uart_Ip_ClearStatusFlagWithMask) @06a568c0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_ClearStatusFlag/23 (Lpuart_Uart_Ip_ClearStatusFlag) @06a56620
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_GetStatusFlag/22 (Lpuart_Uart_Ip_GetStatusFlag) @06a56380
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_Getchar10/21 (Lpuart_Uart_Ip_Getchar10) @06a560e0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_Getchar9/20 (Lpuart_Uart_Ip_Getchar9) @06a50e00
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_Getchar/19 (Lpuart_Uart_Ip_Getchar) @06a50b60
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_Putchar10/18 (Lpuart_Uart_Ip_Putchar10) @06a508c0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_Putchar9/17 (Lpuart_Uart_Ip_Putchar9) @06a50620
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_Putchar/16 (Lpuart_Uart_Ip_Putchar) @06a50380
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_GetIntMode/15 (Lpuart_Uart_Ip_GetIntMode) @06a500e0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_SetIntMode/14 (Lpuart_Uart_Ip_SetIntMode) @06a4ce00
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_SetStopBitCount/13 (Lpuart_Uart_Ip_SetStopBitCount) @06a4cb60
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_SetParityMode/12 (Lpuart_Uart_Ip_SetParityMode) @06a4c8c0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_SetBitCountPerChar/11 (Lpuart_Uart_Ip_SetBitCountPerChar) @06a4c620
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_EnableBothEdgeSamplingCmd/10 (Lpuart_Uart_Ip_EnableBothEdgeSamplingCmd) @06a4c380
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_GetOversamplingRatio/9 (Lpuart_Uart_Ip_GetOversamplingRatio) @06a4c0e0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_SetOversamplingRatio/8 (Lpuart_Uart_Ip_SetOversamplingRatio) @06a45e00
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_GetBaudRateDivisor/7 (Lpuart_Uart_Ip_GetBaudRateDivisor) @06a45a80
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_SetBaudRateDivisor/6 (Lpuart_Uart_Ip_SetBaudRateDivisor) @06a457e0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_SetReceiverCmd/5 (Lpuart_Uart_Ip_SetReceiverCmd) @06a45540
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_SetTransmitterCmd/4 (Lpuart_Uart_Ip_SetTransmitterCmd) @06a452a0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_Hw_Init/3 (Lpuart_Uart_Ip_Hw_Init) @06a45000
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+_putchar_unlocked/2 (_putchar_unlocked) @068e8b60
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+_getchar_unlocked/1 (_getchar_unlocked) @068e88c0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+__sputc_r/0 (__sputc_r) @068e8460
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+
+Removing unused symbols: DevAssert Lpuart_Uart_Ip_FlushRxBuffer Lpuart_Uart_Ip_FlushTxBuffer Lpuart_Uart_Ip_CheckTimeout Lpuart_Uart_Ip_StartTimeout Lpuart_Uart_Ip_ClearErrorFlags Lpuart_Uart_Ip_ClearStatusFlagWithMask Lpuart_Uart_Ip_ClearStatusFlag Lpuart_Uart_Ip_GetStatusFlag Lpuart_Uart_Ip_Getchar10 Lpuart_Uart_Ip_Getchar9 Lpuart_Uart_Ip_Getchar Lpuart_Uart_Ip_Putchar10 Lpuart_Uart_Ip_Putchar9 Lpuart_Uart_Ip_Putchar Lpuart_Uart_Ip_GetIntMode Lpuart_Uart_Ip_SetIntMode Lpuart_Uart_Ip_SetStopBitCount Lpuart_Uart_Ip_SetParityMode Lpuart_Uart_Ip_SetBitCountPerChar Lpuart_Uart_Ip_EnableBothEdgeSamplingCmd Lpuart_Uart_Ip_GetOversamplingRatio Lpuart_Uart_Ip_SetOversamplingRatio Lpuart_Uart_Ip_GetBaudRateDivisor Lpuart_Uart_Ip_SetBaudRateDivisor Lpuart_Uart_Ip_SetReceiverCmd Lpuart_Uart_Ip_SetTransmitterCmd Lpuart_Uart_Ip_Hw_Init _putchar_unlocked _getchar_unlocked __sputc_r
+
+Reclaimed Symbol table:
+
+memset/45 (memset) @06f61b60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: U1_printf/35 
+  Calls: 
+Lpuart_Uart_Ip_SyncSend/44 (Lpuart_Uart_Ip_SyncSend) @06f61a80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: U1_printf/35 
+  Calls: 
+strlen/43 (strlen) @06f619a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: U1_printf/35 
+  Calls: 
+Lpuart_Uart_Ip_Deinit/42 (Lpuart_Uart_Ip_Deinit) @06f617e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: LPUART_DEINIT/34 
+  Calls: 
+Lpuart_Uart_Ip_AsyncReceive/41 (Lpuart_Uart_Ip_AsyncReceive) @06f61620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: LPUART_INIT/33 
+  Calls: 
+Lpuart_Uart_Ip_xHwConfigPB_1_BOARD_INITPERIPHERALS/40 (Lpuart_Uart_Ip_xHwConfigPB_1_BOARD_INITPERIPHERALS) @06f58f30
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: LPUART_INIT/33 (addr)
+  Availability: not-ready
+  Varpool flags: read-only
+Lpuart_Uart_Ip_Init/39 (Lpuart_Uart_Ip_Init) @06f61540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: LPUART_INIT/33 
+  Calls: 
+IntCtrlConfig_0/38 (IntCtrlConfig_0) @06f58ea0
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: LPUART_INIT/33 (addr)
+  Availability: not-ready
+  Varpool flags: read-only
+IntCtrl_Ip_Init/37 (IntCtrl_Ip_Init) @06f61460
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: LPUART_INIT/33 
+  Calls: 
+Lpuart1_Callback/36 (Lpuart1_Callback) @06f61000
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: 
+U1_printf/35 (U1_printf) @06f5ce00
+  Type: function definition analyzed
+  Visibility: public
+  References: USART1_TX_BUF/31 (write)USART1_TX_BUF/31 (addr)USART1_TX_BUF/31 (addr)USART1_TX_BUF/31 (addr)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: memset/45 Lpuart_Uart_Ip_SyncSend/44 strlen/43 
+LPUART_DEINIT/34 (LPUART_DEINIT) @06f5cb60
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Lpuart_Uart_Ip_Deinit/42 
+LPUART_INIT/33 (LPUART_INIT) @06f5c8c0
+  Type: function definition analyzed
+  Visibility: public
+  References: IntCtrlConfig_0/38 (addr)Lpuart_Uart_Ip_xHwConfigPB_1_BOARD_INITPERIPHERALS/40 (addr)rxbuffer/32 (addr)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Lpuart_Uart_Ip_AsyncReceive/41 Lpuart_Uart_Ip_Init/39 IntCtrl_Ip_Init/37 
+rxbuffer/32 (rxbuffer) @06f58948
+  Type: variable definition analyzed
+  Visibility: public
+  References: 
+  Referring: LPUART_INIT/33 (addr)
+  Availability: not-ready
+  Varpool flags:
+USART1_TX_BUF/31 (USART1_TX_BUF) @06f588b8
+  Type: variable definition analyzed
+  Visibility: public
+  References: 
+  Referring: U1_printf/35 (write)U1_printf/35 (addr)U1_printf/35 (addr)U1_printf/35 (addr)
+  Availability: not-ready
+  Varpool flags:
+
+
+Initial Symbol table:
+
+memset/45 (memset) @06f61b60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: U1_printf/35 
+  Calls: 
+Lpuart_Uart_Ip_SyncSend/44 (Lpuart_Uart_Ip_SyncSend) @06f61a80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: U1_printf/35 
+  Calls: 
+strlen/43 (strlen) @06f619a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: U1_printf/35 
+  Calls: 
+Lpuart_Uart_Ip_Deinit/42 (Lpuart_Uart_Ip_Deinit) @06f617e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: LPUART_DEINIT/34 
+  Calls: 
+Lpuart_Uart_Ip_AsyncReceive/41 (Lpuart_Uart_Ip_AsyncReceive) @06f61620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: LPUART_INIT/33 
+  Calls: 
+Lpuart_Uart_Ip_xHwConfigPB_1_BOARD_INITPERIPHERALS/40 (Lpuart_Uart_Ip_xHwConfigPB_1_BOARD_INITPERIPHERALS) @06f58f30
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: LPUART_INIT/33 (addr)
+  Availability: not-ready
+  Varpool flags: read-only
+Lpuart_Uart_Ip_Init/39 (Lpuart_Uart_Ip_Init) @06f61540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: LPUART_INIT/33 
+  Calls: 
+IntCtrlConfig_0/38 (IntCtrlConfig_0) @06f58ea0
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: LPUART_INIT/33 (addr)
+  Availability: not-ready
+  Varpool flags: read-only
+IntCtrl_Ip_Init/37 (IntCtrl_Ip_Init) @06f61460
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: LPUART_INIT/33 
+  Calls: 
+Lpuart1_Callback/36 (Lpuart1_Callback) @06f61000
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: 
+U1_printf/35 (U1_printf) @06f5ce00
+  Type: function definition analyzed
+  Visibility: public
+  References: USART1_TX_BUF/31 (write)USART1_TX_BUF/31 (addr)USART1_TX_BUF/31 (addr)USART1_TX_BUF/31 (addr)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: memset/45 Lpuart_Uart_Ip_SyncSend/44 strlen/43 
+LPUART_DEINIT/34 (LPUART_DEINIT) @06f5cb60
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Lpuart_Uart_Ip_Deinit/42 
+LPUART_INIT/33 (LPUART_INIT) @06f5c8c0
+  Type: function definition analyzed
+  Visibility: public
+  References: IntCtrlConfig_0/38 (addr)Lpuart_Uart_Ip_xHwConfigPB_1_BOARD_INITPERIPHERALS/40 (addr)rxbuffer/32 (addr)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Lpuart_Uart_Ip_AsyncReceive/41 Lpuart_Uart_Ip_Init/39 IntCtrl_Ip_Init/37 
+rxbuffer/32 (rxbuffer) @06f58948
+  Type: variable definition analyzed
+  Visibility: public
+  References: 
+  Referring: LPUART_INIT/33 (addr)
+  Availability: not-ready
+  Varpool flags:
+USART1_TX_BUF/31 (USART1_TX_BUF) @06f588b8
+  Type: variable definition analyzed
+  Visibility: public
+  References: 
+  Referring: U1_printf/35 (write)U1_printf/35 (addr)U1_printf/35 (addr)U1_printf/35 (addr)
+  Availability: not-ready
+  Varpool flags:
+
+Removing unused symbols:
+
+Reclaimed Symbol table:
+
+memset/45 (memset) @06f61b60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: U1_printf/35 
+  Calls: 
+Lpuart_Uart_Ip_SyncSend/44 (Lpuart_Uart_Ip_SyncSend) @06f61a80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: U1_printf/35 
+  Calls: 
+strlen/43 (strlen) @06f619a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: U1_printf/35 
+  Calls: 
+Lpuart_Uart_Ip_Deinit/42 (Lpuart_Uart_Ip_Deinit) @06f617e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: LPUART_DEINIT/34 
+  Calls: 
+Lpuart_Uart_Ip_AsyncReceive/41 (Lpuart_Uart_Ip_AsyncReceive) @06f61620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: LPUART_INIT/33 
+  Calls: 
+Lpuart_Uart_Ip_xHwConfigPB_1_BOARD_INITPERIPHERALS/40 (Lpuart_Uart_Ip_xHwConfigPB_1_BOARD_INITPERIPHERALS) @06f58f30
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: LPUART_INIT/33 (addr)
+  Availability: not-ready
+  Varpool flags: read-only
+Lpuart_Uart_Ip_Init/39 (Lpuart_Uart_Ip_Init) @06f61540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: LPUART_INIT/33 
+  Calls: 
+IntCtrlConfig_0/38 (IntCtrlConfig_0) @06f58ea0
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: LPUART_INIT/33 (addr)
+  Availability: not-ready
+  Varpool flags: read-only
+IntCtrl_Ip_Init/37 (IntCtrl_Ip_Init) @06f61460
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: LPUART_INIT/33 
+  Calls: 
+Lpuart1_Callback/36 (Lpuart1_Callback) @06f61000
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: 
+U1_printf/35 (U1_printf) @06f5ce00
+  Type: function definition analyzed
+  Visibility: public
+  References: USART1_TX_BUF/31 (write)USART1_TX_BUF/31 (addr)USART1_TX_BUF/31 (addr)USART1_TX_BUF/31 (addr)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: memset/45 Lpuart_Uart_Ip_SyncSend/44 strlen/43 
+LPUART_DEINIT/34 (LPUART_DEINIT) @06f5cb60
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Lpuart_Uart_Ip_Deinit/42 
+LPUART_INIT/33 (LPUART_INIT) @06f5c8c0
+  Type: function definition analyzed
+  Visibility: public
+  References: IntCtrlConfig_0/38 (addr)Lpuart_Uart_Ip_xHwConfigPB_1_BOARD_INITPERIPHERALS/40 (addr)rxbuffer/32 (addr)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Lpuart_Uart_Ip_AsyncReceive/41 Lpuart_Uart_Ip_Init/39 IntCtrl_Ip_Init/37 
+rxbuffer/32 (rxbuffer) @06f58948
+  Type: variable definition analyzed
+  Visibility: public
+  References: 
+  Referring: LPUART_INIT/33 (addr)
+  Availability: not-ready
+  Varpool flags:
+USART1_TX_BUF/31 (USART1_TX_BUF) @06f588b8
+  Type: variable definition analyzed
+  Visibility: public
+  References: 
+  Referring: U1_printf/35 (write)U1_printf/35 (addr)U1_printf/35 (addr)U1_printf/35 (addr)
+  Availability: not-ready
+  Varpool flags:
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Optimized Symbol table:
+
+memset/45 (memset) @06f61b60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: U1_printf/35 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Lpuart_Uart_Ip_SyncSend/44 (Lpuart_Uart_Ip_SyncSend) @06f61a80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: U1_printf/35 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+strlen/43 (strlen) @06f619a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: U1_printf/35 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Lpuart_Uart_Ip_Deinit/42 (Lpuart_Uart_Ip_Deinit) @06f617e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: LPUART_DEINIT/34 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Lpuart_Uart_Ip_AsyncReceive/41 (Lpuart_Uart_Ip_AsyncReceive) @06f61620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: LPUART_INIT/33 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Lpuart_Uart_Ip_xHwConfigPB_1_BOARD_INITPERIPHERALS/40 (Lpuart_Uart_Ip_xHwConfigPB_1_BOARD_INITPERIPHERALS) @06f58f30
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: LPUART_INIT/33 (addr)
+  Availability: not_available
+  Varpool flags: read-only
+Lpuart_Uart_Ip_Init/39 (Lpuart_Uart_Ip_Init) @06f61540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: LPUART_INIT/33 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+IntCtrlConfig_0/38 (IntCtrlConfig_0) @06f58ea0
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: LPUART_INIT/33 (addr)
+  Availability: not_available
+  Varpool flags: read-only
+IntCtrl_Ip_Init/37 (IntCtrl_Ip_Init) @06f61460
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: LPUART_INIT/33 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Lpuart1_Callback/36 (Lpuart1_Callback) @06f61000
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:107374 (estimated locally) body nonfreeing_fn executed_once optimize_size
+  Called by: 
+  Calls: 
+U1_printf/35 (U1_printf) @06f5ce00
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: USART1_TX_BUF/31 (write)USART1_TX_BUF/31 (addr)USART1_TX_BUF/31 (addr)USART1_TX_BUF/31 (addr)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: memset/45 (1073741824 (estimated locally),1.00 per call) Lpuart_Uart_Ip_SyncSend/44 (1073741824 (estimated locally),1.00 per call) strlen/43 (1073741824 (estimated locally),1.00 per call) 
+LPUART_DEINIT/34 (LPUART_DEINIT) @06f5cb60
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpuart_Uart_Ip_Deinit/42 (1073741824 (estimated locally),1.00 per call) 
+LPUART_INIT/33 (LPUART_INIT) @06f5c8c0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: IntCtrlConfig_0/38 (addr)Lpuart_Uart_Ip_xHwConfigPB_1_BOARD_INITPERIPHERALS/40 (addr)rxbuffer/32 (addr)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpuart_Uart_Ip_AsyncReceive/41 (1073741824 (estimated locally),1.00 per call) Lpuart_Uart_Ip_Init/39 (1073741824 (estimated locally),1.00 per call) IntCtrl_Ip_Init/37 (1073741824 (estimated locally),1.00 per call) 
+rxbuffer/32 (rxbuffer) @06f58948
+  Type: variable definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: LPUART_INIT/33 (addr)
+  Availability: available
+  Varpool flags:
+USART1_TX_BUF/31 (USART1_TX_BUF) @06f588b8
+  Type: variable definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: U1_printf/35 (write)U1_printf/35 (addr)U1_printf/35 (addr)U1_printf/35 (addr)
+  Availability: available
+  Varpool flags:
+Materializing clones
+Materialization Call site updates done.
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Time profile order in expand_all_functions:LPUART_INIT:0
+Time profile order in expand_all_functions:LPUART_DEINIT:0
+Time profile order in expand_all_functions:U1_printf:0
+Time profile order in expand_all_functions:Lpuart1_Callback:0
+Trivially needed variables: rxbuffer USART1_TX_BUF
+Removing variables:
+
+Final Symbol table:
+
+memset/45 (memset) @06f61b60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_SyncSend/44 (Lpuart_Uart_Ip_SyncSend) @06f61a80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+strlen/43 (strlen) @06f619a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_Deinit/42 (Lpuart_Uart_Ip_Deinit) @06f617e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_AsyncReceive/41 (Lpuart_Uart_Ip_AsyncReceive) @06f61620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_xHwConfigPB_1_BOARD_INITPERIPHERALS/40 (Lpuart_Uart_Ip_xHwConfigPB_1_BOARD_INITPERIPHERALS) @06f58f30
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Varpool flags: read-only
+Lpuart_Uart_Ip_Init/39 (Lpuart_Uart_Ip_Init) @06f61540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+IntCtrlConfig_0/38 (IntCtrlConfig_0) @06f58ea0
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Varpool flags: read-only
+IntCtrl_Ip_Init/37 (IntCtrl_Ip_Init) @06f61460
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart1_Callback/36 (Lpuart1_Callback) @06f61000
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:107374 (estimated locally) nonfreeing_fn executed_once optimize_size
+  Called by: 
+  Calls: 
+U1_printf/35 (U1_printf) @06f5ce00
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) optimize_size
+  Called by: 
+  Calls: 
+LPUART_DEINIT/34 (LPUART_DEINIT) @06f5cb60
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) optimize_size
+  Called by: 
+  Calls: 
+LPUART_INIT/33 (LPUART_INIT) @06f5c8c0
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) optimize_size
+  Called by: 
+  Calls: 
+rxbuffer/32 (rxbuffer) @06f58948
+  Type: variable definition analyzed
+  Visibility: externally_visible asm_written public
+  Aux: @00000001
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags:
+USART1_TX_BUF/31 (USART1_TX_BUF) @06f588b8
+  Type: variable definition analyzed
+  Visibility: externally_visible asm_written public
+  Aux: @06f58948
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags:

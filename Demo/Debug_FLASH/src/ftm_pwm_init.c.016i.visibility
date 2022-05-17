@@ -1,0 +1,103 @@
+
+Marking local functions:
+
+
+Marking externally visible functions: FTM0_PWM_DEINIT FTM0_PWM_INIT
+
+
+Marking externally visible variables:
+
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Symbol table:
+
+Ftm_Pwm_Ip_DeInit/7 (Ftm_Pwm_Ip_DeInit) @06967380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: FTM0_PWM_DEINIT/2 
+  Calls: 
+Ftm_Pwm_Ip_UpdatePwmChannel/6 (Ftm_Pwm_Ip_UpdatePwmChannel) @06967e00
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: FTM0_PWM_INIT/1 FTM0_PWM_INIT/1 
+  Calls: 
+Ftm_Pwm_Ip_UpdatePwmPeriod/5 (Ftm_Pwm_Ip_UpdatePwmPeriod) @06967d20
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: FTM0_PWM_INIT/1 
+  Calls: 
+Ftm_Pwm_Ip_BOARD_InitPeripherals_UserCfg0/4 (Ftm_Pwm_Ip_BOARD_InitPeripherals_UserCfg0) @06966750
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: FTM0_PWM_INIT/1 (addr)
+  Availability: not_available
+  Varpool flags: read-only
+Ftm_Pwm_Ip_Init/3 (Ftm_Pwm_Ip_Init) @06967c40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: FTM0_PWM_INIT/1 
+  Calls: 
+FTM0_PWM_DEINIT/2 (FTM0_PWM_DEINIT) @069677e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Ftm_Pwm_Ip_DeInit/7 
+FTM0_PWM_INIT/1 (FTM0_PWM_INIT) @06967540
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: Ftm_Pwm_Ip_BOARD_InitPeripherals_UserCfg0/4 (addr)
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Ftm_Pwm_Ip_UpdatePwmChannel/6 Ftm_Pwm_Ip_UpdatePwmChannel/6 Ftm_Pwm_Ip_UpdatePwmPeriod/5 Ftm_Pwm_Ip_Init/3 
+FTM0_PWM_DEINIT ()
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  Ftm_Pwm_Ip_DeInit (0);
+  return;
+
+}
+
+
+FTM0_PWM_INIT ()
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  Ftm_Pwm_Ip_Init (0, &Ftm_Pwm_Ip_BOARD_InitPeripherals_UserCfg0);
+  # DEBUG BEGIN_STMT
+  Ftm_Pwm_Ip_UpdatePwmPeriod (0, 20480, 1);
+  # DEBUG BEGIN_STMT
+  Ftm_Pwm_Ip_UpdatePwmChannel (0, 0, 20480, 0, 1);
+  # DEBUG BEGIN_STMT
+  Ftm_Pwm_Ip_UpdatePwmChannel (0, 0, 0, 0, 1);
+  return;
+
+}
+
+

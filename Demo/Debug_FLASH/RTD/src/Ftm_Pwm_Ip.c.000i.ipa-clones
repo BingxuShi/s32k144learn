@@ -1,0 +1,336 @@
+Callgraph clone;Ftm_Pwm_Ip_SetHardwareSyncTriggerSrc;46;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;838;20;Ftm_Pwm_Ip_SetHardwareSyncTriggerSrc.part.0;213;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;838;20;part
+Callgraph clone;Ftm_Pwm_Ip_SetDualChnCombineCmd;53;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;975;20;Ftm_Pwm_Ip_SetDualChnCombineCmd.part.0;214;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;975;20;part
+Callgraph clone;Ftm_Pwm_Ip_SetDualChnPwmSyncCmd;57;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1060;20;Ftm_Pwm_Ip_SetDualChnPwmSyncCmd.part.0;215;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1060;20;part
+Callgraph clone;Ftm_Pwm_Ip_SetChnOutputPolarityCmd;69;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1243;20;Ftm_Pwm_Ip_SetChnOutputPolarityCmd.part.0;216;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1243;20;part
+Callgraph clone;Ftm_Pwm_Ip_GetCpwms;6;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;209;42;Ftm_Pwm_Ip_GetChannelMode;109;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2056;42;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetSoftwareTriggerCmd;47;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;860;20;Ftm_Pwm_Ip_InitPair;149;../RTD/src/Ftm_Pwm_Ip.c;424;14;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetChnOutputPolarityCmd;69;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1243;20;Ftm_Pwm_Ip_InitPair;149;../RTD/src/Ftm_Pwm_Ip.c;424;14;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetChnOutputPolarityCmd;69;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1243;20;Ftm_Pwm_Ip_InitPair;149;../RTD/src/Ftm_Pwm_Ip.c;424;14;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetChnOutputPolarityCmd;69;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1243;20;Ftm_Pwm_Ip_InitPair;149;../RTD/src/Ftm_Pwm_Ip.c;424;14;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetChnOutputPolarityCmd;69;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1243;20;Ftm_Pwm_Ip_InitPair;149;../RTD/src/Ftm_Pwm_Ip.c;424;14;inlining to
+Callgraph clone;Ftm_Pwm_Ip_GetChnOutputPolarity;70;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1266;39;Ftm_Pwm_Ip_InitPair;149;../RTD/src/Ftm_Pwm_Ip.c;424;14;inlining to
+Callgraph removal;Ftm_Pwm_Ip_GetChnOutputPolarity;70;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1266;39
+Callgraph clone;Ftm_Pwm_Ip_ClearTimerOverflow;14;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;313;20;Ftm_Pwm_Ip_DisableCmpIrq;150;../RTD/src/Ftm_Pwm_Ip.c;506;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetTimerOverflowInt;11;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;274;20;Ftm_Pwm_Ip_DisableCmpIrq;150;../RTD/src/Ftm_Pwm_Ip.c;506;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_ClearChnEventFlag;29;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;564;20;Ftm_Pwm_Ip_DisableCmpIrq;150;../RTD/src/Ftm_Pwm_Ip.c;506;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_UpdateChnInt;27;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;540;20;Ftm_Pwm_Ip_DisableCmpIrq;150;../RTD/src/Ftm_Pwm_Ip.c;506;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetCounterSoftwareSyncModeCmd;82;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1462;20;Ftm_Pwm_Ip_ConfigureSWandHWSync;153;../RTD/src/Ftm_Pwm_Ip.c;656;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetModCntinCvSoftwareSyncModeCmd;83;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1476;20;Ftm_Pwm_Ip_ConfigureSWandHWSync;153;../RTD/src/Ftm_Pwm_Ip.c;656;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetSwoctrlSoftwareSyncModeCmd;86;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1518;20;Ftm_Pwm_Ip_ConfigureSWandHWSync;153;../RTD/src/Ftm_Pwm_Ip.c;656;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetInvctrlSoftwareSyncModeCmd;85;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1504;20;Ftm_Pwm_Ip_ConfigureSWandHWSync;153;../RTD/src/Ftm_Pwm_Ip.c;656;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetOutmaskSoftwareSyncModeCmd;84;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1490;20;Ftm_Pwm_Ip_ConfigureSWandHWSync;153;../RTD/src/Ftm_Pwm_Ip.c;656;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetCounterHardwareSyncModeCmd;87;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1532;20;Ftm_Pwm_Ip_ConfigureSWandHWSync;153;../RTD/src/Ftm_Pwm_Ip.c;656;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetModCntinCvHardwareSyncModeCmd;88;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1546;20;Ftm_Pwm_Ip_ConfigureSWandHWSync;153;../RTD/src/Ftm_Pwm_Ip.c;656;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetInvctrlHardwareSyncModeCmd;90;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1574;20;Ftm_Pwm_Ip_ConfigureSWandHWSync;153;../RTD/src/Ftm_Pwm_Ip.c;656;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetInvctrlHardwareSyncModeCmd;90;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1574;20;Ftm_Pwm_Ip_ConfigureSWandHWSync;153;../RTD/src/Ftm_Pwm_Ip.c;656;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetOutmaskHardwareSyncModeCmd;89;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1560;20;Ftm_Pwm_Ip_ConfigureSWandHWSync;153;../RTD/src/Ftm_Pwm_Ip.c;656;13;inlining to
+Callgraph removal;Ftm_Pwm_Ip_SetCounterHardwareSyncModeCmd;233;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1532;20
+Callgraph clone;Ftm_Pwm_Ip_SetPwmSyncModeCmd;81;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1448;20;Ftm_Pwm_Ip_UpdateSync;155;../RTD/src/Ftm_Pwm_Ip.c;725;30;inlining to
+Callgraph removal;Ftm_Pwm_Ip_SetPwmSyncModeCmd;81;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1448;20
+Callgraph clone;Ftm_Pwm_Ip_Enable;38;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;715;20;Ftm_Pwm_Ip_ResetAndFirstConfigure;156;../RTD/src/Ftm_Pwm_Ip.c;933;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_ClearTimerOverflow;14;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;313;20;Ftm_Pwm_Ip_ResetAndFirstConfigure;156;../RTD/src/Ftm_Pwm_Ip.c;933;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetClockSource;3;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;163;20;Ftm_Pwm_Ip_ResetAndFirstConfigure;156;../RTD/src/Ftm_Pwm_Ip.c;933;13;inlining to
+Callgraph removal;Ftm_Pwm_Ip_Enable;238;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;715;20
+Callgraph clone;Ftm_Pwm_Ip_SetMod;19;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;387;20;Ftm_Pwm_Ip_InitInstance;157;../RTD/src/Ftm_Pwm_Ip.c;960;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetMod;19;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;387;20;Ftm_Pwm_Ip_InitInstance;157;../RTD/src/Ftm_Pwm_Ip.c;960;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetCounterInitVal;34;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;647;20;Ftm_Pwm_Ip_InitInstance;157;../RTD/src/Ftm_Pwm_Ip.c;960;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetSimOutputBufferEn;130;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2471;20;Ftm_Pwm_Ip_InitInstance;157;../RTD/src/Ftm_Pwm_Ip.c;960;13;inlining to
+Callgraph removal;Ftm_Pwm_Ip_SetCounterInitVal;34;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;647;20
+Callgraph removal;Ftm_Pwm_Ip_SetSimOutputBufferEn;130;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2471;20
+Callgraph clone;Ftm_Pwm_Ip_SetPwmSyncMode;41;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;759;20;Ftm_Pwm_Ip_InitInstanceStart;158;../RTD/src/Ftm_Pwm_Ip.c;1050;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_Enable;38;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;715;20;Ftm_Pwm_Ip_InitInstanceStart;158;../RTD/src/Ftm_Pwm_Ip.c;1050;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetFaultInterruptEnable;115;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2305;20;Ftm_Pwm_Ip_InitInstanceStart;158;../RTD/src/Ftm_Pwm_Ip.c;1050;13;inlining to
+Callgraph removal;Ftm_Pwm_Ip_SetFaultInterruptEnable;115;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2305;20
+Callgraph removal;Ftm_Pwm_Ip_SetPwmSyncMode;41;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;759;20
+Callgraph removal;Ftm_Pwm_Ip_Enable;38;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;715;20
+Callgraph clone;Ftm_Pwm_Ip_SetDualChnMCombineCmd;58;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1084;20;Ftm_Pwm_Ip_ConfigurePairedChannelCombinedMode;159;../RTD/src/Ftm_Pwm_Ip.c;1091;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetDualChnCombineCmd;53;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;975;20;Ftm_Pwm_Ip_ConfigurePairedChannelCombinedMode;159;../RTD/src/Ftm_Pwm_Ip.c;1091;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetDualChnCombineCmd;53;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;975;20;Ftm_Pwm_Ip_ConfigurePairedChannelCombinedMode;159;../RTD/src/Ftm_Pwm_Ip.c;1091;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetDualChFaultCtr;114;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2287;20;Ftm_Pwm_Ip_ConfigurePairedChannelCombinedMode;159;../RTD/src/Ftm_Pwm_Ip.c;1091;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetDualChnPwmSyncCmd;57;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1060;20;Ftm_Pwm_Ip_ConfigurePairedChannelCombinedMode;159;../RTD/src/Ftm_Pwm_Ip.c;1091;13;inlining to
+Callgraph removal;Ftm_Pwm_Ip_SetDualChFaultCtr;114;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2287;20
+Callgraph removal;Ftm_Pwm_Ip_SetDualChnPwmSyncCmd;244;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1060;20
+Callgraph removal;Ftm_Pwm_Ip_SetDualChnCombineCmd;53;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;975;20
+Callgraph removal;Ftm_Pwm_Ip_SetDualChnMCombineCmd;58;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1084;20
+Callgraph removal;Ftm_Pwm_Ip_SetDualChnCombineCmd;243;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;975;20
+Callgraph clone;Ftm_Pwm_Ip_SetSoftwareTriggerCmd;47;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;860;20;Ftm_Pwm_Ip_SetChnTriggerAndSoftwareCtrl;160;../RTD/src/Ftm_Pwm_Ip.c;1139;13;inlining to
+Callgraph removal;Ftm_Pwm_Ip_SetSoftwareTriggerCmd;245;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;860;20
+Callgraph clone;Ftm_Pwm_Ip_SetCounter;17;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;359;20;Ftm_Pwm_Ip_DeInitInstance;162;../RTD/src/Ftm_Pwm_Ip.c;1271;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetMod;19;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;387;20;Ftm_Pwm_Ip_DeInitInstance;162;../RTD/src/Ftm_Pwm_Ip.c;1271;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetTimerOverflowInt;11;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;274;20;Ftm_Pwm_Ip_DeInitInstance;162;../RTD/src/Ftm_Pwm_Ip.c;1271;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetBdmMode;73;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1326;20;Ftm_Pwm_Ip_DeInitInstance;162;../RTD/src/Ftm_Pwm_Ip.c;1271;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetDeadtimeCount;60;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1127;20;Ftm_Pwm_Ip_DeInitInstance;162;../RTD/src/Ftm_Pwm_Ip.c;1271;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetDeadtimePrescaler;61;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1142;20;Ftm_Pwm_Ip_DeInitInstance;162;../RTD/src/Ftm_Pwm_Ip.c;1271;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetExtDeadtimeValue;63;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1165;20;Ftm_Pwm_Ip_DeInitInstance;162;../RTD/src/Ftm_Pwm_Ip.c;1271;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetClockSource;3;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;163;20;Ftm_Pwm_Ip_DeInitInstance;162;../RTD/src/Ftm_Pwm_Ip.c;1271;13;inlining to
+Callgraph removal;Ftm_Pwm_Ip_SetCounter;17;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;359;20
+Callgraph removal;Ftm_Pwm_Ip_SetMod;246;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;387;20
+Callgraph removal;Ftm_Pwm_Ip_SetTimerOverflowInt;247;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;274;20
+Callgraph removal;Ftm_Pwm_Ip_SetBdmMode;248;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1326;20
+Callgraph removal;Ftm_Pwm_Ip_SetDeadtimeCount;249;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1127;20
+Callgraph removal;Ftm_Pwm_Ip_SetDeadtimePrescaler;250;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1142;20
+Callgraph removal;Ftm_Pwm_Ip_SetExtDeadtimeValue;251;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1165;20
+Callgraph clone;Ftm_Pwm_Ip_UpdateChnInt;27;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;540;20;Ftm_Pwm_Ip_SetNormalNotificationCase;174;../RTD/src/Ftm_Pwm_Ip.c;1937;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_UpdateChnInt;27;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;540;20;Ftm_Pwm_Ip_SetNormalNotificationCase;174;../RTD/src/Ftm_Pwm_Ip.c;1937;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_UpdateChnInt;27;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;540;20;Ftm_Pwm_Ip_SetNormalNotificationCase;174;../RTD/src/Ftm_Pwm_Ip.c;1937;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_UpdateChnInt;27;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;540;20;Ftm_Pwm_Ip_SetNormalNotificationCase;174;../RTD/src/Ftm_Pwm_Ip.c;1937;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_ClearChnEventFlag;29;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;564;20;Ftm_Pwm_Ip_SetNormalNotificationCase;174;../RTD/src/Ftm_Pwm_Ip.c;1937;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_UpdateChnInt;27;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;540;20;Ftm_Pwm_Ip_SetNormalNotificationCase;174;../RTD/src/Ftm_Pwm_Ip.c;1937;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_UpdateChnInt;27;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;540;20;Ftm_Pwm_Ip_SetNormalNotificationCase;174;../RTD/src/Ftm_Pwm_Ip.c;1937;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetTimerOverflowInt;11;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;274;20;Ftm_Pwm_Ip_SetNormalNotificationCase;174;../RTD/src/Ftm_Pwm_Ip.c;1937;13;inlining to
+Callgraph removal;Ftm_Pwm_Ip_SetTimerOverflowInt;11;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;274;20
+Callgraph removal;Ftm_Pwm_Ip_UpdateChnInt;27;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;540;20
+Callgraph removal;Ftm_Pwm_Ip_UpdateChnInt;258;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;540;20
+Callgraph removal;Ftm_Pwm_Ip_ClearChnEventFlag;257;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;564;20
+Callgraph removal;Ftm_Pwm_Ip_UpdateChnInt;256;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;540;20
+Callgraph removal;Ftm_Pwm_Ip_UpdateChnInt;255;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;540;20
+Callgraph removal;Ftm_Pwm_Ip_UpdateChnInt;254;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;540;20
+Callgraph clone;Ftm_Pwm_Ip_SetSoftwareTriggerCmd;47;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;860;20;Ftm_Pwm_Ip_SwOutputControl;169;../RTD/src/Ftm_Pwm_Ip.c;1618;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SoftwareOutputControl;98;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1722;20;Ftm_Pwm_Ip_SwOutputControl;169;../RTD/src/Ftm_Pwm_Ip.c;1618;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_GetPolInstance;106;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2012;22;Ftm_Pwm_Ip_SwOutputControl;169;../RTD/src/Ftm_Pwm_Ip.c;1618;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_GetSoftwareOutputControl;105;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1998;22;Ftm_Pwm_Ip_SwOutputControl;169;../RTD/src/Ftm_Pwm_Ip.c;1618;6;inlining to
+Callgraph removal;Ftm_Pwm_Ip_GetSoftwareOutputControl;105;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1998;22
+Callgraph removal;Ftm_Pwm_Ip_GetPolInstance;106;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2012;22
+Callgraph removal;Ftm_Pwm_Ip_SoftwareOutputControl;98;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1722;20
+Callgraph clone;Ftm_Pwm_Ip_SetSoftwareTriggerCmd;47;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;860;20;Ftm_Pwm_Ip_DeInitChannel;163;../RTD/src/Ftm_Pwm_Ip.c;1311;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetChnOutputMask;49;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;906;20;Ftm_Pwm_Ip_DeInitChannel;163;../RTD/src/Ftm_Pwm_Ip.c;1311;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetOutmaskSoftwareSyncModeCmd;84;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1490;20;Ftm_Pwm_Ip_DeInitChannel;163;../RTD/src/Ftm_Pwm_Ip.c;1311;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetOutmaskPwmSyncModeCmd;45;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;820;20;Ftm_Pwm_Ip_DeInitChannel;163;../RTD/src/Ftm_Pwm_Ip.c;1311;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetSoftwareTriggerCmd;47;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;860;20;Ftm_Pwm_Ip_DeInitChannel;163;../RTD/src/Ftm_Pwm_Ip.c;1311;13;inlining to
+Callgraph removal;Ftm_Pwm_Ip_SetSoftwareTriggerCmd;260;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;860;20
+Callgraph removal;Ftm_Pwm_Ip_SetChnOutputMask;49;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;906;20
+Callgraph removal;Ftm_Pwm_Ip_SetOutmaskPwmSyncModeCmd;262;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;820;20
+Callgraph removal;Ftm_Pwm_Ip_SetSoftwareTriggerCmd;263;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;860;20
+Callgraph clone;Ftm_Pwm_Ip_SetChnCountVal;32;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;616;20;Ftm_Pwm_Ip_UpdatePwmChannel;170;../RTD/src/Ftm_Pwm_Ip.c;1730;23;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetChnCountVal;32;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;616;20;Ftm_Pwm_Ip_UpdatePwmChannel;170;../RTD/src/Ftm_Pwm_Ip.c;1730;23;inlining to
+Callgraph clone;Ftm_Pwm_Ip_GetCpwms;6;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;209;42;Ftm_Pwm_Ip_UpdatePwmChannel;170;../RTD/src/Ftm_Pwm_Ip.c;1730;23;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetChnCountVal;32;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;616;20;Ftm_Pwm_Ip_UpdatePwmChannel;170;../RTD/src/Ftm_Pwm_Ip.c;1730;23;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetChnCountVal;32;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;616;20;Ftm_Pwm_Ip_UpdatePwmChannel;170;../RTD/src/Ftm_Pwm_Ip.c;1730;23;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetChnCountVal;32;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;616;20;Ftm_Pwm_Ip_UpdatePwmChannel;170;../RTD/src/Ftm_Pwm_Ip.c;1730;23;inlining to
+Callgraph clone;Ftm_Pwm_Ip_GetClockSource;4;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;181;21;Ftm_Pwm_Ip_UpdatePwmChannel;170;../RTD/src/Ftm_Pwm_Ip.c;1730;23;inlining to
+Callgraph clone;Ftm_Pwm_Ip_GetDualChnCombineCmd;54;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;999;23;Ftm_Pwm_Ip_UpdatePwmChannel;170;../RTD/src/Ftm_Pwm_Ip.c;1730;23;inlining to
+Callgraph removal;Ftm_Pwm_Ip_GetDualChnCombineCmd;54;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;999;23
+Callgraph removal;Ftm_Pwm_Ip_GetClockSource;4;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;181;21
+Callgraph removal;Ftm_Pwm_Ip_SetChnCountVal;269;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;616;20
+Callgraph removal;Ftm_Pwm_Ip_SetChnCountVal;268;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;616;20
+Callgraph removal;Ftm_Pwm_Ip_SetChnCountVal;267;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;616;20
+Callgraph removal;Ftm_Pwm_Ip_SetChnCountVal;265;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;616;20
+Callgraph removal;Ftm_Pwm_Ip_SetChnCountVal;264;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;616;20
+Callgraph clone;Ftm_Pwm_Ip_SetMod;19;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;387;20;Ftm_Pwm_Ip_UpdatePwmPeriod;171;../RTD/src/Ftm_Pwm_Ip.c;1820;23;inlining to
+Callgraph clone;Ftm_Pwm_Ip_GetCpwms;6;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;209;42;Ftm_Pwm_Ip_UpdatePwmPeriod;171;../RTD/src/Ftm_Pwm_Ip.c;1820;23;inlining to
+Callgraph removal;Ftm_Pwm_Ip_GetCpwms;271;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;209;42
+Callgraph removal;Ftm_Pwm_Ip_SetMod;270;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;387;20
+Callgraph clone;Ftm_Pwm_Ip_GetChOutputValue;31;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;601;23;Ftm_Pwm_Ip_GetOutputState;172;../RTD/src/Ftm_Pwm_Ip.c;1860;28;inlining to
+Callgraph removal;Ftm_Pwm_Ip_GetChOutputValue;31;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;601;23
+Callgraph clone;Ftm_Pwm_Ip_ClearTimerOverflow;14;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;313;20;Ftm_Pwm_Ip_EnableNotification;175;../RTD/src/Ftm_Pwm_Ip.c;2002;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_ClearChnEventFlag;29;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;564;20;Ftm_Pwm_Ip_EnableNotification;175;../RTD/src/Ftm_Pwm_Ip.c;2002;6;inlining to
+Callgraph removal;Ftm_Pwm_Ip_ClearTimerOverflow;14;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;313;20
+Callgraph removal;Ftm_Pwm_Ip_ClearChnEventFlag;29;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;564;20
+Callgraph clone;Ftm_Pwm_Ip_SetClockSource;3;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;163;20;Ftm_Pwm_Ip_SetPowerState;176;../RTD/src/Ftm_Pwm_Ip.c;2067;6;inlining to
+Callgraph removal;Ftm_Pwm_Ip_SetClockSource;272;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;163;20
+Callgraph clone;Ftm_Pwm_Ip_SetChnCountVal;32;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;616;20;Ftm_Pwm_Ip_FastUpdatePwmDuty;180;../RTD/src/Ftm_Pwm_Ip.c;2164;6;inlining to
+Callgraph removal;Ftm_Pwm_Ip_SetChnCountVal;273;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;616;20
+Callgraph clone;Ftm_Pwm_Ip_SetOutmaskReg;50;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;928;20;Ftm_Pwm_Ip_MaskOutputChannels;181;../RTD/src/Ftm_Pwm_Ip.c;2196;6;inlining to
+Callgraph removal;Ftm_Pwm_Ip_SetOutmaskReg;50;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;928;20
+Callgraph clone;Ftm_Pwm_Ip_ClearOutmaskReg;51;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;943;20;Ftm_Pwm_Ip_UnMaskOutputChannels;182;../RTD/src/Ftm_Pwm_Ip.c;2222;6;inlining to
+Callgraph removal;Ftm_Pwm_Ip_ClearOutmaskReg;51;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;943;20
+Callgraph clone;Ftm_Pwm_Ip_SetChnCountVal;32;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;616;20;Ftm_Pwm_Ip_SetPhaseShift;183;../RTD/src/Ftm_Pwm_Ip.c;2247;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetChnCountVal;32;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;616;20;Ftm_Pwm_Ip_SetPhaseShift;183;../RTD/src/Ftm_Pwm_Ip.c;2247;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetMod;19;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;387;20;Ftm_Pwm_Ip_SetPhaseShift;183;../RTD/src/Ftm_Pwm_Ip.c;2247;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetMod;19;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;387;20;Ftm_Pwm_Ip_SetPhaseShift;183;../RTD/src/Ftm_Pwm_Ip.c;2247;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_GetCpwms;6;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;209;42;Ftm_Pwm_Ip_SetPhaseShift;183;../RTD/src/Ftm_Pwm_Ip.c;2247;6;inlining to
+Callgraph removal;Ftm_Pwm_Ip_GetCpwms;6;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;209;42
+Callgraph removal;Ftm_Pwm_Ip_SetMod;19;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;387;20
+Callgraph removal;Ftm_Pwm_Ip_SetMod;275;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;387;20
+Callgraph removal;Ftm_Pwm_Ip_SetChnCountVal;274;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;616;20
+Callgraph removal;Ftm_Pwm_Ip_SetChnCountVal;32;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;616;20
+Callgraph clone;Ftm_Pwm_Ip_DisableTriggerMask;67;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1215;20;Ftm_Pwm_Ip_DisableTrigger;185;../RTD/src/Ftm_Pwm_Ip.c;2417;7;inlining to
+Callgraph removal;Ftm_Pwm_Ip_DisableTriggerMask;67;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1215;20
+Callgraph clone;Ftm_Pwm_Ip_EnableTriggerMask;68;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1226;20;Ftm_Pwm_Ip_EnableTrigger;186;../RTD/src/Ftm_Pwm_Ip.c;2440;7;inlining to
+Callgraph removal;Ftm_Pwm_Ip_EnableTriggerMask;68;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1226;20
+Callgraph clone;Ftm_Pwm_Ip_SetSoftwareTriggerCmd;47;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;860;20;Ftm_Pwm_Ip_SyncUpdate;187;../RTD/src/Ftm_Pwm_Ip.c;2463;6;inlining to
+Callgraph removal;Ftm_Pwm_Ip_SetSoftwareTriggerCmd;276;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;860;20
+Callgraph clone;Ftm_Pwm_Ip_SetExtDeadtimeValue;63;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1165;20;Ftm_Pwm_Ip_SetChannelDeadTime;188;../RTD/src/Ftm_Pwm_Ip.c;2484;6;inlining to
+Callgraph removal;Ftm_Pwm_Ip_SetExtDeadtimeValue;277;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1165;20
+Callgraph removal;Ftm_Pwm_Ip_SetDualChnCombineCmd.part.0;214;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;975;20
+Callgraph clone;Ftm_Pwm_Ip_SetFaultInputEn;128;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2442;20;Ftm_Pwm_Ip_SetFaultInputEn.constprop.0;278;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2442;20;constprop
+Callgraph clone;Ftm_Pwm_Ip_UpdateWriteProtection;110;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2114;20;Ftm_Pwm_Ip_UpdateWriteProtection.constprop.0;279;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2114;20;constprop
+Callgraph clone;Ftm_Pwm_Ip_SetPwmLoadChnSelCmd;99;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1741;20;Ftm_Pwm_Ip_SetPwmLoadChnSelCmd.constprop.0;280;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1741;20;constprop
+Callgraph clone;Ftm_Pwm_Ip_SetChnSoftwareCtrlCmd;97;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1702;20;Ftm_Pwm_Ip_SetChnSoftwareCtrlCmd.constprop.0;281;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1702;20;constprop
+Callgraph clone;Ftm_Pwm_Ip_SetChnSoftwareCtrlVal;95;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1663;20;Ftm_Pwm_Ip_SetChnSoftwareCtrlVal.constprop.0;282;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1663;20;constprop
+Callgraph clone;Ftm_Pwm_Ip_SetCounterSoftwareSyncModeCmd;82;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1462;20;Ftm_Pwm_Ip_ResetCounter;178;../RTD/src/Ftm_Pwm_Ip.c;2122;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetClockPs;1;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;135;20;Ftm_Pwm_Ip_SetClockMode;177;../RTD/src/Ftm_Pwm_Ip.c;2095;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetHardwareSyncTriggerSrc.part.0;213;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;838;20;Ftm_Pwm_Ip_SetHardwareSyncTriggerSrc;46;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;838;20;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetChnOutputPolarityCmd.part.0;216;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1243;20;Ftm_Pwm_Ip_SetChnOutputPolarityCmd;69;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1243;20;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetDeadtimeCount;60;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1127;20;Ftm_Pwm_Ip_ResetAndFirstConfigure;156;../RTD/src/Ftm_Pwm_Ip.c;933;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetClockPs;1;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;135;20;Ftm_Pwm_Ip_InitInstanceStart;158;../RTD/src/Ftm_Pwm_Ip.c;1050;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetClockPs;1;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;135;20;Ftm_Pwm_Ip_SetClockMode;177;../RTD/src/Ftm_Pwm_Ip.c;2095;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetDeadtimeCount;60;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1127;20;Ftm_Pwm_Ip_SetChannelDeadTime;188;../RTD/src/Ftm_Pwm_Ip.c;2484;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetDeadtimeCount;60;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1127;20;Ftm_Pwm_Ip_SetChannelDeadTime;188;../RTD/src/Ftm_Pwm_Ip.c;2484;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetFaultInputEn.constprop.0;278;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2442;20;Ftm_Pwm_Ip_InitChFault;164;../RTD/src/Ftm_Pwm_Ip.c;1352;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetOutmaskPwmSyncModeCmd;45;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;820;20;Ftm_Pwm_Ip_ConfigureSyncType;154;../RTD/src/Ftm_Pwm_Ip.c;702;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetInvctrlPwmSyncModeCmd;79;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1420;20;Ftm_Pwm_Ip_ConfigureSyncType;154;../RTD/src/Ftm_Pwm_Ip.c;702;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetSwoctrlPwmSyncModeCmd;80;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1434;20;Ftm_Pwm_Ip_ConfigureSyncType;154;../RTD/src/Ftm_Pwm_Ip.c;702;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetCntinPwmSyncModeCmd;78;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1406;20;Ftm_Pwm_Ip_ConfigureSyncType;154;../RTD/src/Ftm_Pwm_Ip.c;702;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetPwmLoadChnSelCmd.constprop.0;280;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1741;20;Ftm_Pwm_Ip_SetChnTriggerAndSoftwareCtrl;160;../RTD/src/Ftm_Pwm_Ip.c;1139;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetChnSoftwareCtrlCmd.constprop.0;281;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1702;20;Ftm_Pwm_Ip_SetChnTriggerAndSoftwareCtrl;160;../RTD/src/Ftm_Pwm_Ip.c;1139;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetDualChnPwmSyncCmd.part.0;215;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1060;20;Ftm_Pwm_Ip_SetDualChnPwmSyncCmd;57;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1060;20;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetClockSource;3;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;163;20;Ftm_Pwm_Ip_SetPowerState;176;../RTD/src/Ftm_Pwm_Ip.c;2067;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_EnablePwmChannelOutputs;15;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;330;20;Ftm_Pwm_Ip_InitPair;149;../RTD/src/Ftm_Pwm_Ip.c;424;14;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetChnTriggerCmd;112;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2216;20;Ftm_Pwm_Ip_SetChnTriggerAndSoftwareCtrl;160;../RTD/src/Ftm_Pwm_Ip.c;1139;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetFaultPolarity;127;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2429;20;Ftm_Pwm_Ip_InitChFault;164;../RTD/src/Ftm_Pwm_Ip.c;1352;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetExtDeadtimeValue;63;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1165;20;Ftm_Pwm_Ip_ResetAndFirstConfigure;156;../RTD/src/Ftm_Pwm_Ip.c;933;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetDeadtimePrescaler;61;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1142;20;Ftm_Pwm_Ip_ResetAndFirstConfigure;156;../RTD/src/Ftm_Pwm_Ip.c;933;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetCpwms;5;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;194;20;Ftm_Pwm_Ip_ResetAndFirstConfigure;156;../RTD/src/Ftm_Pwm_Ip.c;933;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetBdmMode;73;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1326;20;Ftm_Pwm_Ip_ResetAndFirstConfigure;156;../RTD/src/Ftm_Pwm_Ip.c;933;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetFaultFilterValue;125;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2407;20;Ftm_Pwm_Ip_InitInstanceStart;158;../RTD/src/Ftm_Pwm_Ip.c;1050;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetFaultOutputState;126;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2418;20;Ftm_Pwm_Ip_InitInstanceStart;158;../RTD/src/Ftm_Pwm_Ip.c;1050;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetClockSource;3;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;163;20;Ftm_Pwm_Ip_InitInstanceStart;158;../RTD/src/Ftm_Pwm_Ip.c;1050;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetExtDeadtimeValue;63;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1165;20;Ftm_Pwm_Ip_SetChannelDeadTime;188;../RTD/src/Ftm_Pwm_Ip.c;2484;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetInitTriggerCmd;64;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1181;20;Ftm_Pwm_Ip_InitInstance;157;../RTD/src/Ftm_Pwm_Ip.c;960;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetInitTriggerMode;76;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1375;20;Ftm_Pwm_Ip_InitInstance;157;../RTD/src/Ftm_Pwm_Ip.c;960;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetChnSoftwareCtrlVal.constprop.0;282;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1663;20;Ftm_Pwm_Ip_SetChnTriggerAndSoftwareCtrl;160;../RTD/src/Ftm_Pwm_Ip.c;1139;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_UpdateWriteProtection.constprop.0;279;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2114;20;Ftm_Pwm_Ip_Reset;111;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2139;20;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetFaultFilterEn;129;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2455;20;Ftm_Pwm_Ip_InitChFault;164;../RTD/src/Ftm_Pwm_Ip.c;1352;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_GetChnEdgeLevel;23;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;457;21;Ftm_Pwm_Ip_GetChannelMode;109;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2056;42;inlining to
+Callgraph clone;Ftm_Pwm_Ip_GetChnMode;26;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;522;21;Ftm_Pwm_Ip_GetChannelMode;109;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2056;42;inlining to
+Callgraph clone;Ftm_Pwm_Ip_CalculatePhaseShift;148;../RTD/src/Ftm_Pwm_Ip.c;389;15;Ftm_Pwm_Ip_SetDutyPhaseShift;184;../RTD/src/Ftm_Pwm_Ip.c;2331;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_EnablePwmChannelOutputs;15;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;330;20;Ftm_Pwm_Ip_InitChannel;161;../RTD/src/Ftm_Pwm_Ip.c;1166;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetChnMSBAMode;25;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;498;20;Ftm_Pwm_Ip_InitChannel;161;../RTD/src/Ftm_Pwm_Ip.c;1166;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_GetDualChnMCombineCmd;59;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1108;23;Ftm_Pwm_Ip_UpdatePwmChannel;170;../RTD/src/Ftm_Pwm_Ip.c;1730;23;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetLoadFreq;72;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1301;20;Ftm_Pwm_Ip_UpdateSync;155;../RTD/src/Ftm_Pwm_Ip.c;725;30;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetChnOutputInitStateCmd;48;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;879;20;Ftm_Pwm_Ip_InitChannel;161;../RTD/src/Ftm_Pwm_Ip.c;1166;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetChnOutputPolarityCmd;69;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1243;20;Ftm_Pwm_Ip_InitChannel;161;../RTD/src/Ftm_Pwm_Ip.c;1166;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetDualChnDeadtimeCmd;56;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1037;20;Ftm_Pwm_Ip_InitPair;149;../RTD/src/Ftm_Pwm_Ip.c;424;14;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetDualChnCompCmd;55;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1014;20;Ftm_Pwm_Ip_InitPair;149;../RTD/src/Ftm_Pwm_Ip.c;424;14;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetDualChnPwmSyncCmd;57;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1060;20;Ftm_Pwm_Ip_InitPair;149;../RTD/src/Ftm_Pwm_Ip.c;424;14;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetHardwareSyncTriggerSrc;46;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;838;20;Ftm_Pwm_Ip_UpdateSync;155;../RTD/src/Ftm_Pwm_Ip.c;725;30;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetHardwareSyncTriggerSrc.part.0;213;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;838;20;Ftm_Pwm_Ip_UpdateSync;155;../RTD/src/Ftm_Pwm_Ip.c;725;30;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetHardwareSyncTriggerSrc;46;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;838;20;Ftm_Pwm_Ip_UpdateSync;155;../RTD/src/Ftm_Pwm_Ip.c;725;30;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetHardwareSyncTriggerSrc.part.0;213;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;838;20;Ftm_Pwm_Ip_UpdateSync;155;../RTD/src/Ftm_Pwm_Ip.c;725;30;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetHardwareSyncTriggerSrc;46;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;838;20;Ftm_Pwm_Ip_UpdateSync;155;../RTD/src/Ftm_Pwm_Ip.c;725;30;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetChnOutputPolarityCmd.part.0;216;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1243;20;Ftm_Pwm_Ip_InitPair;149;../RTD/src/Ftm_Pwm_Ip.c;424;14;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetModCntinCvHardwareSyncModeCmd;88;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1546;20;Ftm_Pwm_Ip_ConfigureSWandHWSync;153;../RTD/src/Ftm_Pwm_Ip.c;656;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetCounterHardwareSyncModeCmd;87;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1532;20;Ftm_Pwm_Ip_ConfigureSWandHWSync;153;../RTD/src/Ftm_Pwm_Ip.c;656;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetCounterSoftwareSyncModeCmd;82;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1462;20;Ftm_Pwm_Ip_ConfigureSWandHWSync;153;../RTD/src/Ftm_Pwm_Ip.c;656;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetOutmaskHardwareSyncModeCmd;89;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1560;20;Ftm_Pwm_Ip_ConfigureSWandHWSync;153;../RTD/src/Ftm_Pwm_Ip.c;656;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetInvctrlHardwareSyncModeCmd;90;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1574;20;Ftm_Pwm_Ip_ConfigureSWandHWSync;153;../RTD/src/Ftm_Pwm_Ip.c;656;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetInvctrlHardwareSyncModeCmd;90;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1574;20;Ftm_Pwm_Ip_ConfigureSWandHWSync;153;../RTD/src/Ftm_Pwm_Ip.c;656;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetOutmaskSoftwareSyncModeCmd;84;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1490;20;Ftm_Pwm_Ip_ConfigureSWandHWSync;153;../RTD/src/Ftm_Pwm_Ip.c;656;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetInvctrlSoftwareSyncModeCmd;85;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1504;20;Ftm_Pwm_Ip_ConfigureSWandHWSync;153;../RTD/src/Ftm_Pwm_Ip.c;656;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetSwoctrlSoftwareSyncModeCmd;86;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1518;20;Ftm_Pwm_Ip_ConfigureSWandHWSync;153;../RTD/src/Ftm_Pwm_Ip.c;656;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetModCntinCvSoftwareSyncModeCmd;83;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1476;20;Ftm_Pwm_Ip_ConfigureSWandHWSync;153;../RTD/src/Ftm_Pwm_Ip.c;656;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetHwTriggerSyncModeCmd;77;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1392;20;Ftm_Pwm_Ip_UpdateSync;155;../RTD/src/Ftm_Pwm_Ip.c;725;30;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetMaxLoadingCmd;43;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;789;20;Ftm_Pwm_Ip_UpdateSync;155;../RTD/src/Ftm_Pwm_Ip.c;725;30;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetMinLoadingCmd;42;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;775;20;Ftm_Pwm_Ip_UpdateSync;155;../RTD/src/Ftm_Pwm_Ip.c;725;30;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetChnTriggerCmd;112;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2216;20;Ftm_Pwm_Ip_InitPair;149;../RTD/src/Ftm_Pwm_Ip.c;424;14;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetHalfCycleCmd;100;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1766;20;Ftm_Pwm_Ip_UpdateSync;155;../RTD/src/Ftm_Pwm_Ip.c;725;30;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetFaultControlMode;113;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2254;20;Ftm_Pwm_Ip_InitInstanceStart;158;../RTD/src/Ftm_Pwm_Ip.c;1050;13;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetChnOutputPolarityCmd.part.0;216;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1243;20;Ftm_Pwm_Ip_InitPair;149;../RTD/src/Ftm_Pwm_Ip.c;424;14;inlining to
+Callgraph clone;Ftm_Pwm_Ip_InitChFault;164;../RTD/src/Ftm_Pwm_Ip.c;1352;13;Ftm_Pwm_Ip_Init;165;../RTD/src/Ftm_Pwm_Ip.c;1377;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_CalculatePhaseShift;148;../RTD/src/Ftm_Pwm_Ip.c;389;15;Ftm_Pwm_Ip_UpdatePwmDutyCycleChannel;167;../RTD/src/Ftm_Pwm_Ip.c;1457;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_InitChannel;161;../RTD/src/Ftm_Pwm_Ip.c;1166;13;Ftm_Pwm_Ip_Init;165;../RTD/src/Ftm_Pwm_Ip.c;1377;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetChnTriggerAndSoftwareCtrl;160;../RTD/src/Ftm_Pwm_Ip.c;1139;13;Ftm_Pwm_Ip_Init;165;../RTD/src/Ftm_Pwm_Ip.c;1377;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_ConfigurePairedChannelCombinedMode;159;../RTD/src/Ftm_Pwm_Ip.c;1091;13;Ftm_Pwm_Ip_Init;165;../RTD/src/Ftm_Pwm_Ip.c;1377;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_DeInitChannel;163;../RTD/src/Ftm_Pwm_Ip.c;1311;13;Ftm_Pwm_Ip_DeInit;166;../RTD/src/Ftm_Pwm_Ip.c;1426;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_DeInitInstance;162;../RTD/src/Ftm_Pwm_Ip.c;1271;13;Ftm_Pwm_Ip_DeInit;166;../RTD/src/Ftm_Pwm_Ip.c;1426;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_InitPair;149;../RTD/src/Ftm_Pwm_Ip.c;424;14;Ftm_Pwm_Ip_Init;165;../RTD/src/Ftm_Pwm_Ip.c;1377;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_UpdateNotificationState;151;../RTD/src/Ftm_Pwm_Ip.c;559;13;Ftm_Pwm_Ip_EnableNotification;175;../RTD/src/Ftm_Pwm_Ip.c;2002;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_InitInstance;157;../RTD/src/Ftm_Pwm_Ip.c;960;13;Ftm_Pwm_Ip_Init;165;../RTD/src/Ftm_Pwm_Ip.c;1377;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_ResetAndFirstConfigure;156;../RTD/src/Ftm_Pwm_Ip.c;933;13;Ftm_Pwm_Ip_Init;165;../RTD/src/Ftm_Pwm_Ip.c;1377;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_InitInstanceStart;158;../RTD/src/Ftm_Pwm_Ip.c;1050;13;Ftm_Pwm_Ip_Init;165;../RTD/src/Ftm_Pwm_Ip.c;1377;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_UpdateSync;155;../RTD/src/Ftm_Pwm_Ip.c;725;30;Ftm_Pwm_Ip_Init;165;../RTD/src/Ftm_Pwm_Ip.c;1377;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_ConfigureSyncType;154;../RTD/src/Ftm_Pwm_Ip.c;702;13;Ftm_Pwm_Ip_Init;165;../RTD/src/Ftm_Pwm_Ip.c;1377;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_UpdateNotificationStateCombine;152;../RTD/src/Ftm_Pwm_Ip.c;610;13;Ftm_Pwm_Ip_EnableNotification;175;../RTD/src/Ftm_Pwm_Ip.c;2002;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_SetNormalNotificationCase;174;../RTD/src/Ftm_Pwm_Ip.c;1937;13;Ftm_Pwm_Ip_EnableNotification;175;../RTD/src/Ftm_Pwm_Ip.c;2002;6;inlining to
+Callgraph clone;Ftm_Pwm_Ip_ConfigureSWandHWSync;153;../RTD/src/Ftm_Pwm_Ip.c;656;13;Ftm_Pwm_Ip_Init;165;../RTD/src/Ftm_Pwm_Ip.c;1377;6;inlining to
+Callgraph removal;Ftm_Pwm_Ip_SetFaultInputEn;128;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2442;20
+Callgraph removal;Ftm_Pwm_Ip_UpdateWriteProtection;110;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2114;20
+Callgraph removal;Ftm_Pwm_Ip_SetPwmLoadChnSelCmd;99;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1741;20
+Callgraph removal;Ftm_Pwm_Ip_SetChnSoftwareCtrlCmd;97;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1702;20
+Callgraph removal;Ftm_Pwm_Ip_SetChnSoftwareCtrlVal;95;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1663;20
+Callgraph removal;Ftm_Pwm_Ip_GetChnMode;26;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;522;21
+Callgraph removal;Ftm_Pwm_Ip_GetChnEdgeLevel;23;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;457;21
+Callgraph removal;Ftm_Pwm_Ip_UpdateWriteProtection.constprop.0;279;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2114;20
+Callgraph removal;Ftm_Pwm_Ip_DeInitChannel;163;../RTD/src/Ftm_Pwm_Ip.c;1311;13
+Callgraph removal;Ftm_Pwm_Ip_DeInitInstance;162;../RTD/src/Ftm_Pwm_Ip.c;1271;13
+Callgraph removal;Ftm_Pwm_Ip_GetDualChnMCombineCmd;59;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1108;23
+Callgraph removal;Ftm_Pwm_Ip_CalculatePhaseShift;148;../RTD/src/Ftm_Pwm_Ip.c;389;15
+Callgraph removal;Ftm_Pwm_Ip_InitInstance;157;../RTD/src/Ftm_Pwm_Ip.c;960;13
+Callgraph removal;Ftm_Pwm_Ip_UpdateSync;155;../RTD/src/Ftm_Pwm_Ip.c;725;30
+Callgraph removal;Ftm_Pwm_Ip_ResetAndFirstConfigure;156;../RTD/src/Ftm_Pwm_Ip.c;933;13
+Callgraph removal;Ftm_Pwm_Ip_SetDeadtimePrescaler;61;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1142;20
+Callgraph removal;Ftm_Pwm_Ip_SetDeadtimeCount;286;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1127;20
+Callgraph removal;Ftm_Pwm_Ip_SetBdmMode;73;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1326;20
+Callgraph removal;Ftm_Pwm_Ip_SetCpwms;5;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;194;20
+Callgraph removal;Ftm_Pwm_Ip_ConfigureSyncType;154;../RTD/src/Ftm_Pwm_Ip.c;702;13
+Callgraph removal;Ftm_Pwm_Ip_SetLoadFreq;72;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1301;20
+Callgraph removal;Ftm_Pwm_Ip_SetHalfCycleCmd;100;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1766;20
+Callgraph removal;Ftm_Pwm_Ip_SetMinLoadingCmd;42;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;775;20
+Callgraph removal;Ftm_Pwm_Ip_SetMaxLoadingCmd;43;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;789;20
+Callgraph removal;Ftm_Pwm_Ip_SetHwTriggerSyncModeCmd;77;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1392;20
+Callgraph removal;Ftm_Pwm_Ip_SetHardwareSyncTriggerSrc;296;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;838;20
+Callgraph removal;Ftm_Pwm_Ip_SetHardwareSyncTriggerSrc;294;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;838;20
+Callgraph removal;Ftm_Pwm_Ip_SetHardwareSyncTriggerSrc;46;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;838;20
+Callgraph removal;Ftm_Pwm_Ip_ConfigureSWandHWSync;153;../RTD/src/Ftm_Pwm_Ip.c;656;13
+Callgraph removal;Ftm_Pwm_Ip_SetCounterSoftwareSyncModeCmd;82;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1462;20
+Callgraph removal;Ftm_Pwm_Ip_SetModCntinCvSoftwareSyncModeCmd;83;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1476;20
+Callgraph removal;Ftm_Pwm_Ip_SetSwoctrlSoftwareSyncModeCmd;86;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1518;20
+Callgraph removal;Ftm_Pwm_Ip_SetInvctrlSoftwareSyncModeCmd;85;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1504;20
+Callgraph removal;Ftm_Pwm_Ip_SetOutmaskSoftwareSyncModeCmd;84;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1490;20
+Callgraph removal;Ftm_Pwm_Ip_SetCounterHardwareSyncModeCmd;87;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1532;20
+Callgraph removal;Ftm_Pwm_Ip_SetModCntinCvHardwareSyncModeCmd;88;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1546;20
+Callgraph removal;Ftm_Pwm_Ip_SetInvctrlHardwareSyncModeCmd;90;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1574;20
+Callgraph removal;Ftm_Pwm_Ip_SetInvctrlHardwareSyncModeCmd;299;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1574;20
+Callgraph removal;Ftm_Pwm_Ip_SetOutmaskHardwareSyncModeCmd;89;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1560;20
+Callgraph removal;Ftm_Pwm_Ip_SetHardwareSyncTriggerSrc.part.0;213;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;838;20
+Callgraph removal;Ftm_Pwm_Ip_SetHardwareSyncTriggerSrc.part.0;295;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;838;20
+Callgraph removal;Ftm_Pwm_Ip_SetHardwareSyncTriggerSrc.part.0;297;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;838;20
+Callgraph removal;Ftm_Pwm_Ip_SetCntinPwmSyncModeCmd;78;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1406;20
+Callgraph removal;Ftm_Pwm_Ip_SetSwoctrlPwmSyncModeCmd;80;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1434;20
+Callgraph removal;Ftm_Pwm_Ip_SetInvctrlPwmSyncModeCmd;79;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1420;20
+Callgraph removal;Ftm_Pwm_Ip_SetOutmaskPwmSyncModeCmd;45;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;820;20
+Callgraph removal;Ftm_Pwm_Ip_SetInitTriggerMode;76;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1375;20
+Callgraph removal;Ftm_Pwm_Ip_SetInitTriggerCmd;64;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1181;20
+Callgraph removal;Ftm_Pwm_Ip_InitChannel;161;../RTD/src/Ftm_Pwm_Ip.c;1166;13
+Callgraph removal;Ftm_Pwm_Ip_SetChnTriggerAndSoftwareCtrl;160;../RTD/src/Ftm_Pwm_Ip.c;1139;13
+Callgraph removal;Ftm_Pwm_Ip_ConfigurePairedChannelCombinedMode;159;../RTD/src/Ftm_Pwm_Ip.c;1091;13
+Callgraph removal;Ftm_Pwm_Ip_SetChnMSBAMode;25;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;498;20
+Callgraph removal;Ftm_Pwm_Ip_SetChnOutputInitStateCmd;48;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;879;20
+Callgraph removal;Ftm_Pwm_Ip_SetChnOutputPolarityCmd;69;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1243;20
+Callgraph removal;Ftm_Pwm_Ip_SetChnOutputPolarityCmd.part.0;285;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1243;20
+Callgraph removal;Ftm_Pwm_Ip_InitPair;149;../RTD/src/Ftm_Pwm_Ip.c;424;14
+Callgraph removal;Ftm_Pwm_Ip_SetDualChnCompCmd;55;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1014;20
+Callgraph removal;Ftm_Pwm_Ip_SetChnOutputPolarityCmd.part.0;216;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1243;20
+Callgraph removal;Ftm_Pwm_Ip_SetChnOutputPolarityCmd.part.0;298;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1243;20
+Callgraph removal;Ftm_Pwm_Ip_SetChnTriggerCmd;112;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2216;20
+Callgraph removal;Ftm_Pwm_Ip_SetDualChnDeadtimeCmd;56;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1037;20
+Callgraph removal;Ftm_Pwm_Ip_SetDualChnPwmSyncCmd;57;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1060;20
+Callgraph removal;Ftm_Pwm_Ip_EnablePwmChannelOutputs;290;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;330;20
+Callgraph removal;Ftm_Pwm_Ip_SetDualChnPwmSyncCmd.part.0;215;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1060;20
+Callgraph removal;Ftm_Pwm_Ip_SetChnSoftwareCtrlVal.constprop.0;282;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1663;20
+Callgraph removal;Ftm_Pwm_Ip_SetChnSoftwareCtrlCmd.constprop.0;281;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1702;20
+Callgraph removal;Ftm_Pwm_Ip_SetPwmLoadChnSelCmd.constprop.0;280;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1741;20
+Callgraph removal;Ftm_Pwm_Ip_SetChnTriggerCmd;291;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2216;20
+Callgraph removal;Ftm_Pwm_Ip_EnablePwmChannelOutputs;15;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;330;20
+Callgraph removal;Ftm_Pwm_Ip_InitChFault;164;../RTD/src/Ftm_Pwm_Ip.c;1352;13
+Callgraph removal;Ftm_Pwm_Ip_SetFaultInputEn.constprop.0;278;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2442;20
+Callgraph removal;Ftm_Pwm_Ip_SetFaultFilterEn;129;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2455;20
+Callgraph removal;Ftm_Pwm_Ip_SetFaultPolarity;127;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2429;20
+Callgraph removal;Ftm_Pwm_Ip_InitInstanceStart;158;../RTD/src/Ftm_Pwm_Ip.c;1050;13
+Callgraph removal;Ftm_Pwm_Ip_SetFaultControlMode;113;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2254;20
+Callgraph removal;Ftm_Pwm_Ip_SetFaultOutputState;126;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2418;20
+Callgraph removal;Ftm_Pwm_Ip_SetFaultFilterValue;125;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;2407;20
+Callgraph removal;Ftm_Pwm_Ip_SetClockSource;3;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;163;20
+Callgraph removal;Ftm_Pwm_Ip_SetClockPs;287;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;135;20
+Callgraph removal;Ftm_Pwm_Ip_UpdateNotificationState;151;../RTD/src/Ftm_Pwm_Ip.c;559;13
+Callgraph removal;Ftm_Pwm_Ip_UpdateNotificationStateCombine;152;../RTD/src/Ftm_Pwm_Ip.c;610;13
+Callgraph removal;Ftm_Pwm_Ip_SetNormalNotificationCase;174;../RTD/src/Ftm_Pwm_Ip.c;1937;13
+Callgraph removal;Ftm_Pwm_Ip_SetClockSource;289;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;163;20
+Callgraph removal;Ftm_Pwm_Ip_SetClockPs;1;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;135;20
+Callgraph removal;Ftm_Pwm_Ip_SetClockPs;284;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;135;20
+Callgraph removal;Ftm_Pwm_Ip_SetCounterSoftwareSyncModeCmd;283;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1462;20
+Callgraph removal;Ftm_Pwm_Ip_CalculatePhaseShift;293;../RTD/src/Ftm_Pwm_Ip.c;389;15
+Callgraph removal;Ftm_Pwm_Ip_SetDeadtimeCount;288;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1127;20
+Callgraph removal;Ftm_Pwm_Ip_SetExtDeadtimeValue;63;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1165;20
+Callgraph removal;Ftm_Pwm_Ip_SetDeadtimeCount;60;../RTD/include/Ftm_Pwm_Ip_HwAccess.h;1127;20

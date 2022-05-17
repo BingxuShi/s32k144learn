@@ -1,0 +1,97 @@
+
+Marking local functions:
+
+
+Marking externally visible functions: INTERRUPT_INIT
+
+
+Marking externally visible variables:
+
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Symbol table:
+
+CAN0_ORED_0_15_MB_IRQHandler/34 (CAN0_ORED_0_15_MB_IRQHandler) @06e41b60
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: INTERRUPT_INIT/28 (addr)
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+LPUART_UART_IP_1_IRQHandler/33 (LPUART_UART_IP_1_IRQHandler) @06e41a80
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: INTERRUPT_INIT/28 (addr)
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+IntCtrl_Ip_InstallHandler/32 (IntCtrl_Ip_InstallHandler) @06e419a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: INTERRUPT_INIT/28 INTERRUPT_INIT/28 
+  Calls: 
+IntCtrl_Ip_EnableIrq/31 (IntCtrl_Ip_EnableIrq) @06e418c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: INTERRUPT_INIT/28 INTERRUPT_INIT/28 
+  Calls: 
+IntCtrlConfig_0/30 (IntCtrlConfig_0) @06e40708
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: INTERRUPT_INIT/28 (addr)
+  Availability: not_available
+  Varpool flags: read-only
+IntCtrl_Ip_Init/29 (IntCtrl_Ip_Init) @06e417e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: INTERRUPT_INIT/28 
+  Calls: 
+INTERRUPT_INIT/28 (INTERRUPT_INIT) @06e41380
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: IntCtrlConfig_0/30 (addr)LPUART_UART_IP_1_IRQHandler/33 (addr)CAN0_ORED_0_15_MB_IRQHandler/34 (addr)
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: IntCtrl_Ip_InstallHandler/32 IntCtrl_Ip_EnableIrq/31 IntCtrl_Ip_InstallHandler/32 IntCtrl_Ip_EnableIrq/31 IntCtrl_Ip_Init/29 
+INTERRUPT_INIT ()
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  IntCtrl_Ip_Init (&IntCtrlConfig_0);
+  # DEBUG BEGIN_STMT
+  IntCtrl_Ip_EnableIrq (33);
+  # DEBUG BEGIN_STMT
+  IntCtrl_Ip_InstallHandler (33, LPUART_UART_IP_1_IRQHandler, 0B);
+  # DEBUG BEGIN_STMT
+  IntCtrl_Ip_EnableIrq (81);
+  # DEBUG BEGIN_STMT
+  IntCtrl_Ip_InstallHandler (81, CAN0_ORED_0_15_MB_IRQHandler, 0B);
+  return;
+
+}
+
+

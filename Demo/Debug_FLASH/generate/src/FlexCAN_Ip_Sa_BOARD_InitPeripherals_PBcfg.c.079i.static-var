@@ -1,0 +1,17 @@
+callgraph:
+
+Flexcan0_callback/2 (Flexcan0_callback) @069b2c40
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: FlexCAN_Config0/1 (addr)
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Clearing variable flags:
+
+
+ ordered call graph: reduced
+

@@ -1,0 +1,238 @@
+callgraph:
+
+memset/45 (memset) @06f61b60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: U1_printf/35 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Lpuart_Uart_Ip_SyncSend/44 (Lpuart_Uart_Ip_SyncSend) @06f61a80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: U1_printf/35 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+strlen/43 (strlen) @06f619a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: U1_printf/35 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Lpuart_Uart_Ip_Deinit/42 (Lpuart_Uart_Ip_Deinit) @06f617e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: LPUART_DEINIT/34 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Lpuart_Uart_Ip_AsyncReceive/41 (Lpuart_Uart_Ip_AsyncReceive) @06f61620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: LPUART_INIT/33 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Lpuart_Uart_Ip_Init/39 (Lpuart_Uart_Ip_Init) @06f61540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: LPUART_INIT/33 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+IntCtrl_Ip_Init/37 (IntCtrl_Ip_Init) @06f61460
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: LPUART_INIT/33 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Lpuart1_Callback/36 (Lpuart1_Callback) @06f61000
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:107374 (estimated locally) body nonfreeing_fn executed_once optimize_size
+  Called by: 
+  Calls: 
+U1_printf/35 (U1_printf) @06f5ce00
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: USART1_TX_BUF/31 (write)USART1_TX_BUF/31 (addr)USART1_TX_BUF/31 (addr)USART1_TX_BUF/31 (addr)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: memset/45 (1073741824 (estimated locally),1.00 per call) Lpuart_Uart_Ip_SyncSend/44 (1073741824 (estimated locally),1.00 per call) strlen/43 (1073741824 (estimated locally),1.00 per call) 
+LPUART_DEINIT/34 (LPUART_DEINIT) @06f5cb60
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpuart_Uart_Ip_Deinit/42 (1073741824 (estimated locally),1.00 per call) 
+LPUART_INIT/33 (LPUART_INIT) @06f5c8c0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: IntCtrlConfig_0/38 (addr)Lpuart_Uart_Ip_xHwConfigPB_1_BOARD_INITPERIPHERALS/40 (addr)rxbuffer/32 (addr)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpuart_Uart_Ip_AsyncReceive/41 (1073741824 (estimated locally),1.00 per call) Lpuart_Uart_Ip_Init/39 (1073741824 (estimated locally),1.00 per call) IntCtrl_Ip_Init/37 (1073741824 (estimated locally),1.00 per call) 
+Clearing variable flags:
+
+Function name:Lpuart1_Callback/36:
+  locals read: 
+  locals written: 
+Function name:U1_printf/35:
+  locals read: 
+  locals written: 
+Function name:LPUART_DEINIT/34:
+  locals read: 
+  locals written: 
+Function name:LPUART_INIT/33:
+  locals read: 
+  locals written: 
+
+ ordered call graph: reduced
+Lpuart1_Callback/36 (Lpuart1_Callback) @06f61000
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @06d02c68
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:107374 (estimated locally) body nonfreeing_fn executed_once optimize_size
+  Called by: 
+  Calls: 
+U1_printf/35 (U1_printf) @06f5ce00
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @06d02c88
+  References: USART1_TX_BUF/31 (write)USART1_TX_BUF/31 (addr)USART1_TX_BUF/31 (addr)USART1_TX_BUF/31 (addr)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: memset/45 (1073741824 (estimated locally),1.00 per call) Lpuart_Uart_Ip_SyncSend/44 (1073741824 (estimated locally),1.00 per call) strlen/43 (1073741824 (estimated locally),1.00 per call) 
+LPUART_DEINIT/34 (LPUART_DEINIT) @06f5cb60
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @06d02a68
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpuart_Uart_Ip_Deinit/42 (1073741824 (estimated locally),1.00 per call) 
+LPUART_INIT/33 (LPUART_INIT) @06f5c8c0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @06d02a88
+  References: IntCtrlConfig_0/38 (addr)Lpuart_Uart_Ip_xHwConfigPB_1_BOARD_INITPERIPHERALS/40 (addr)rxbuffer/32 (addr)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpuart_Uart_Ip_AsyncReceive/41 (1073741824 (estimated locally),1.00 per call) Lpuart_Uart_Ip_Init/39 (1073741824 (estimated locally),1.00 per call) IntCtrl_Ip_Init/37 (1073741824 (estimated locally),1.00 per call) 
+
+
+Function name:LPUART_INIT/33:
+    locals read: 
+    locals written: 
+  globals read: ALL
+  globals written: ALL
+
+Function name:LPUART_DEINIT/34:
+    locals read: 
+    locals written: 
+  globals read: ALL
+  globals written: ALL
+
+Function name:U1_printf/35:
+    locals read: 
+    locals written: 
+  globals read: ALL
+  globals written: ALL
+
+Function name:Lpuart1_Callback/36:
+    locals read: 
+    locals written: 
+  globals read: 
+  globals written: 
+Lpuart1_Callback (const uint8 HwInstance, const Lpuart_Uart_Ip_EventType Event, void * UserData)
+{
+  <bb 2> [local count: 107374]:
+
+  <bb 3> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+
+  <bb 4> [local count: 1073741824]:
+  goto <bb 3>; [100.00%]
+
+}
+
+
+U1_printf (char * fmt)
+{
+  unsigned int _1;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  MEM[(char * {ref-all})&USART1_TX_BUF] = MEM[(char * {ref-all})fmt_3(D)];
+  # DEBUG BEGIN_STMT
+  _1 = strlen (&USART1_TX_BUF);
+  Lpuart_Uart_Ip_SyncSend (1, &USART1_TX_BUF, _1, 4294967295);
+  # DEBUG BEGIN_STMT
+  memset (&USART1_TX_BUF, 0, 200);
+  return;
+
+}
+
+
+LPUART_DEINIT ()
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  Lpuart_Uart_Ip_Deinit (1);
+  return;
+
+}
+
+
+LPUART_INIT ()
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  IntCtrl_Ip_Init (&IntCtrlConfig_0);
+  # DEBUG BEGIN_STMT
+  Lpuart_Uart_Ip_Init (1, &Lpuart_Uart_Ip_xHwConfigPB_1_BOARD_INITPERIPHERALS);
+  # DEBUG BEGIN_STMT
+  Lpuart_Uart_Ip_AsyncReceive (1, &rxbuffer, 1);
+  return;
+
+}
+
+

@@ -1,0 +1,18 @@
+INTERRUPT_INIT ()
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  IntCtrl_Ip_Init (&IntCtrlConfig_0);
+  # DEBUG BEGIN_STMT
+  IntCtrl_Ip_EnableIrq (33);
+  # DEBUG BEGIN_STMT
+  IntCtrl_Ip_InstallHandler (33, LPUART_UART_IP_1_IRQHandler, 0B);
+  # DEBUG BEGIN_STMT
+  IntCtrl_Ip_EnableIrq (81);
+  # DEBUG BEGIN_STMT
+  IntCtrl_Ip_InstallHandler (81, CAN0_ORED_0_15_MB_IRQHandler, 0B);
+  return;
+
+}
+
+

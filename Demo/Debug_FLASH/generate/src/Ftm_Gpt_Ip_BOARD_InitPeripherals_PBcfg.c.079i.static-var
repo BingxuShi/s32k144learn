@@ -1,0 +1,17 @@
+callgraph:
+
+Ftm0_ch1_int/2 (Ftm0_ch1_int) @05d5cd20
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: FTM_0_ChannelConfig_PB/1 (addr)
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Clearing variable flags:
+
+
+ ordered call graph: reduced
+

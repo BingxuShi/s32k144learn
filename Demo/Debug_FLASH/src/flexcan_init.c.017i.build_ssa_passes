@@ -1,0 +1,94 @@
+Flexcan0_callback (uint8 instance, Flexcan_Ip_EventType eventType, uint32 buffIdx, const struct Flexcan_Ip_StateType * flexcanState)
+{
+  int b;
+  int a;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = rxData.msgId;
+  a = (int) _1;
+  # DEBUG BEGIN_STMT
+  _2 = rxData.dataLen;
+  b = (int) _2;
+  # DEBUG BEGIN_STMT
+  FLEXCAN0_SEND ();
+  # DEBUG BEGIN_STMT
+  FlexCAN_Ip_Receive (0, 1, &rxData, 0);
+  return;
+
+}
+
+
+FLEXCAN0_SEND ()
+{
+  uint8 TXData[8];
+  struct Flexcan_Ip_DataInfoType rx_info;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  rx_info = {};
+  rx_info.data_length = 8;
+  rx_info.is_polling = 1;
+  # DEBUG BEGIN_STMT
+  TXData = "\x01\x02\x03\x04\x05\x06\x07";
+  # DEBUG BEGIN_STMT
+  FlexCAN_Ip_Send (0, 0, &rx_info, 20, &TXData);
+  rx_info = {CLOBBER};
+  TXData = {CLOBBER};
+  return;
+
+}
+
+
+FLEXCAN0_RX_INIT ()
+{
+  struct Flexcan_Ip_MsgBuffType rxData;
+  struct Flexcan_Ip_DataInfoType rx_info;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  rx_info = {};
+  rx_info.data_length = 8;
+  rx_info.is_polling = 1;
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  FlexCAN_Ip_ConfigRxMb (0, 1, &rx_info, 20);
+  # DEBUG BEGIN_STMT
+  FlexCAN_Ip_Receive (0, 1, &rxData, 0);
+  rx_info = {CLOBBER};
+  rxData = {CLOBBER};
+  return;
+
+}
+
+
+FLEXCAN0_INIT ()
+{
+  Flexcan_Ip_StatusType state;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  state = FlexCAN_Ip_Init_Privileged (0, &FlexCAN_State0, &FlexCAN_Config0);
+  # DEBUG BEGIN_STMT
+  goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  state = FlexCAN_Ip_Init_Privileged (0, &FlexCAN_State0, &FlexCAN_Config0);
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  if (state != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  FlexCAN_Ip_SetStartMode_Privileged (0);
+  return;
+
+}
+
+

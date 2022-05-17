@@ -1,0 +1,53 @@
+Callgraph clone;Ftm_Gpt_Ip_GetCntValue;14;../RTD/src/Ftm_Gpt_Ip.c;563;22;Ftm_Gpt_Ip_GetCounter;13;../RTD/src/Ftm_Gpt_Ip.c;544;8;inlining to
+Callgraph clone;Ftm_Gpt_Ip_SetCompareValue;11;../RTD/src/Ftm_Gpt_Ip.c;510;20;Ftm_Gpt_Ip_ProcessCommonInterrupt;20;../RTD/src/Ftm_Gpt_Ip.c;695;13;inlining to
+Callgraph clone;Ftm_Gpt_Ip_SetCompareValue;11;../RTD/src/Ftm_Gpt_Ip.c;510;20;Ftm_Gpt_Ip_ProcessCommonInterrupt;20;../RTD/src/Ftm_Gpt_Ip.c;695;13;inlining to
+Callgraph clone;Ftm_Gpt_Ip_GetCompareValue;17;../RTD/src/Ftm_Gpt_Ip.c;642;8;Ftm_Gpt_Ip_ProcessCommonInterrupt;20;../RTD/src/Ftm_Gpt_Ip.c;695;13;inlining to
+Callgraph clone;Ftm_Gpt_Ip_GetInterruptBit;19;../RTD/src/Ftm_Gpt_Ip.c;678;8;Ftm_Gpt_Ip_ProcessCommonInterrupt;20;../RTD/src/Ftm_Gpt_Ip.c;695;13;inlining to
+Callgraph clone;Ftm_Gpt_Ip_GetInterruptFlag;18;../RTD/src/Ftm_Gpt_Ip.c;660;8;Ftm_Gpt_Ip_ProcessCommonInterrupt;20;../RTD/src/Ftm_Gpt_Ip.c;695;13;inlining to
+Callgraph clone;Ftm_Gpt_Ip_WriteModulo;12;../RTD/src/Ftm_Gpt_Ip.c;528;20;Ftm_Gpt_Ip_Init;21;../RTD/src/Ftm_Gpt_Ip.c;754;6;inlining to
+Callgraph clone;Ftm_Gpt_Ip_SetCounterInitVal;5;../RTD/src/Ftm_Gpt_Ip.c;387;20;Ftm_Gpt_Ip_Init;21;../RTD/src/Ftm_Gpt_Ip.c;754;6;inlining to
+Callgraph removal;Ftm_Gpt_Ip_WriteModulo;12;../RTD/src/Ftm_Gpt_Ip.c;528;20
+Callgraph clone;Ftm_Gpt_Ip_SetCompareValue;11;../RTD/src/Ftm_Gpt_Ip.c;510;20;Ftm_Gpt_Ip_InitChannel;22;../RTD/src/Ftm_Gpt_Ip.c;803;6;inlining to
+Callgraph clone;Ftm_Gpt_Ip_SetCounter;6;../RTD/src/Ftm_Gpt_Ip.c;403;20;Ftm_Gpt_Ip_Deinit;23;../RTD/src/Ftm_Gpt_Ip.c;842;6;inlining to
+Callgraph clone;Ftm_Gpt_Ip_SetCounterInitVal;5;../RTD/src/Ftm_Gpt_Ip.c;387;20;Ftm_Gpt_Ip_Deinit;23;../RTD/src/Ftm_Gpt_Ip.c;842;6;inlining to
+Callgraph removal;Ftm_Gpt_Ip_SetCounter;6;../RTD/src/Ftm_Gpt_Ip.c;403;20
+Callgraph clone;Ftm_Gpt_Ip_SetCompareValue;11;../RTD/src/Ftm_Gpt_Ip.c;510;20;Ftm_Gpt_Ip_StartCounting;24;../RTD/src/Ftm_Gpt_Ip.c;881;6;inlining to
+Callgraph clone;Ftm_Gpt_Ip_GetCntValue;14;../RTD/src/Ftm_Gpt_Ip.c;563;22;Ftm_Gpt_Ip_StartCounting;24;../RTD/src/Ftm_Gpt_Ip.c;881;6;inlining to
+Callgraph removal;Ftm_Gpt_Ip_GetCntValue;14;../RTD/src/Ftm_Gpt_Ip.c;563;22
+Callgraph removal;Ftm_Gpt_Ip_SetCompareValue;11;../RTD/src/Ftm_Gpt_Ip.c;510;20
+Callgraph clone;Ftm_Gpt_Ip_SetCounterInitVal;5;../RTD/src/Ftm_Gpt_Ip.c;387;20;Ftm_Gpt_Ip_StartTimer;25;../RTD/src/Ftm_Gpt_Ip.c;920;6;inlining to
+Callgraph removal;Ftm_Gpt_Ip_SetCounterInitVal;5;../RTD/src/Ftm_Gpt_Ip.c;387;20
+Callgraph clone;Ftm_Gpt_Ip_SetHalfCycleValue;16;../RTD/src/Ftm_Gpt_Ip.c;606;20;Ftm_Gpt_Ip_SetHalfCycleReloadPoint;29;../RTD/src/Ftm_Gpt_Ip.c;1019;6;inlining to
+Callgraph removal;Ftm_Gpt_Ip_SetHalfCycleValue;16;../RTD/src/Ftm_Gpt_Ip.c;606;20
+Callgraph clone;Ftm_Gpt_Ip_ProcessCommonInterrupt;20;../RTD/src/Ftm_Gpt_Ip.c;695;13;Ftm_Gpt_Ip_ProcessCommonInterrupt.constprop.0;54;../RTD/src/Ftm_Gpt_Ip.c;695;13;constprop
+Callgraph clone;Ftm_Gpt_Ip_ModeSelectA;15;../RTD/src/Ftm_Gpt_Ip.c;582;20;Ftm_Gpt_Ip_ModeSelectA.constprop.0;55;../RTD/src/Ftm_Gpt_Ip.c;582;20;constprop
+Callgraph clone;Ftm_Gpt_Ip_EnableInterrupt;8;../RTD/src/Ftm_Gpt_Ip.c;438;20;Ftm_Gpt_Ip_Deinit;23;../RTD/src/Ftm_Gpt_Ip.c;842;6;inlining to
+Callgraph clone;Ftm_Gpt_Ip_EnableInterrupt;8;../RTD/src/Ftm_Gpt_Ip.c;438;20;Ftm_Gpt_Ip_EnableChannelInterrupt;27;../RTD/src/Ftm_Gpt_Ip.c;969;6;inlining to
+Callgraph clone;Ftm_Gpt_Ip_EnableInterrupt;8;../RTD/src/Ftm_Gpt_Ip.c;438;20;Ftm_Gpt_Ip_DisableChannelInterrupt;28;../RTD/src/Ftm_Gpt_Ip.c;994;6;inlining to
+Callgraph clone;Ftm_Gpt_Ip_FTMEnable;10;../RTD/src/Ftm_Gpt_Ip.c;484;20;Ftm_Gpt_Ip_StopTimer;26;../RTD/src/Ftm_Gpt_Ip.c;946;6;inlining to
+Callgraph clone;Ftm_Gpt_Ip_EnableInterrupt;8;../RTD/src/Ftm_Gpt_Ip.c;438;20;Ftm_Gpt_Ip_StartCounting;24;../RTD/src/Ftm_Gpt_Ip.c;881;6;inlining to
+Callgraph clone;Ftm_Gpt_Ip_FTMEnable;10;../RTD/src/Ftm_Gpt_Ip.c;484;20;Ftm_Gpt_Ip_StartTimer;25;../RTD/src/Ftm_Gpt_Ip.c;920;6;inlining to
+Callgraph clone;Ftm_Gpt_Ip_EnableInterrupt;8;../RTD/src/Ftm_Gpt_Ip.c;438;20;Ftm_Gpt_Ip_InitChannel;22;../RTD/src/Ftm_Gpt_Ip.c;803;6;inlining to
+Callgraph clone;Ftm_Gpt_Ip_SetClockSource;9;../RTD/src/Ftm_Gpt_Ip.c;466;20;Ftm_Gpt_Ip_StopTimer;26;../RTD/src/Ftm_Gpt_Ip.c;946;6;inlining to
+Callgraph clone;Ftm_Gpt_Ip_ModeSelectA.constprop.0;55;../RTD/src/Ftm_Gpt_Ip.c;582;20;Ftm_Gpt_Ip_InitChannel;22;../RTD/src/Ftm_Gpt_Ip.c;803;6;inlining to
+Callgraph clone;Ftm_Gpt_Ip_SetClockSource;9;../RTD/src/Ftm_Gpt_Ip.c;466;20;Ftm_Gpt_Ip_StartTimer;25;../RTD/src/Ftm_Gpt_Ip.c;920;6;inlining to
+Callgraph clone;Ftm_Gpt_Ip_FTMEnable;10;../RTD/src/Ftm_Gpt_Ip.c;484;20;Ftm_Gpt_Ip_Deinit;23;../RTD/src/Ftm_Gpt_Ip.c;842;6;inlining to
+Callgraph clone;Ftm_Gpt_Ip_SetClockSource;9;../RTD/src/Ftm_Gpt_Ip.c;466;20;Ftm_Gpt_Ip_Deinit;23;../RTD/src/Ftm_Gpt_Ip.c;842;6;inlining to
+Callgraph clone;Ftm_Gpt_Ip_SetFreezebit;3;../RTD/src/Ftm_Gpt_Ip.c;338;20;Ftm_Gpt_Ip_Deinit;23;../RTD/src/Ftm_Gpt_Ip.c;842;6;inlining to
+Callgraph clone;Ftm_Gpt_Ip_FTMEnable;10;../RTD/src/Ftm_Gpt_Ip.c;484;20;Ftm_Gpt_Ip_Init;21;../RTD/src/Ftm_Gpt_Ip.c;754;6;inlining to
+Callgraph clone;Ftm_Gpt_Ip_Configure;4;../RTD/src/Ftm_Gpt_Ip.c;366;20;Ftm_Gpt_Ip_Init;21;../RTD/src/Ftm_Gpt_Ip.c;754;6;inlining to
+Callgraph clone;Ftm_Gpt_Ip_SetFreezebit;3;../RTD/src/Ftm_Gpt_Ip.c;338;20;Ftm_Gpt_Ip_Init;21;../RTD/src/Ftm_Gpt_Ip.c;754;6;inlining to
+Callgraph clone;Ftm_Gpt_Ip_ProcessCommonInterrupt.constprop.0;54;../RTD/src/Ftm_Gpt_Ip.c;695;13;FTM_0_CH_0_CH_1_ISR;30;../RTD/src/Ftm_Gpt_Ip.c;1236;1;inlining to
+Callgraph removal;Ftm_Gpt_Ip_ProcessCommonInterrupt;20;../RTD/src/Ftm_Gpt_Ip.c;695;13
+Callgraph removal;Ftm_Gpt_Ip_ModeSelectA;15;../RTD/src/Ftm_Gpt_Ip.c;582;20
+Callgraph removal;Ftm_Gpt_Ip_FTMEnable;10;../RTD/src/Ftm_Gpt_Ip.c;484;20
+Callgraph removal;Ftm_Gpt_Ip_SetFreezebit;3;../RTD/src/Ftm_Gpt_Ip.c;338;20
+Callgraph removal;Ftm_Gpt_Ip_Configure;4;../RTD/src/Ftm_Gpt_Ip.c;366;20
+Callgraph removal;Ftm_Gpt_Ip_ModeSelectA.constprop.0;55;../RTD/src/Ftm_Gpt_Ip.c;582;20
+Callgraph removal;Ftm_Gpt_Ip_EnableInterrupt;8;../RTD/src/Ftm_Gpt_Ip.c;438;20
+Callgraph removal;Ftm_Gpt_Ip_EnableInterrupt;56;../RTD/src/Ftm_Gpt_Ip.c;438;20
+Callgraph removal;Ftm_Gpt_Ip_SetClockSource;9;../RTD/src/Ftm_Gpt_Ip.c;466;20
+Callgraph removal;Ftm_Gpt_Ip_EnableInterrupt;60;../RTD/src/Ftm_Gpt_Ip.c;438;20
+Callgraph removal;Ftm_Gpt_Ip_FTMEnable;59;../RTD/src/Ftm_Gpt_Ip.c;484;20
+Callgraph removal;Ftm_Gpt_Ip_EnableInterrupt;57;../RTD/src/Ftm_Gpt_Ip.c;438;20
+Callgraph removal;Ftm_Gpt_Ip_ProcessCommonInterrupt.constprop.0;54;../RTD/src/Ftm_Gpt_Ip.c;695;13

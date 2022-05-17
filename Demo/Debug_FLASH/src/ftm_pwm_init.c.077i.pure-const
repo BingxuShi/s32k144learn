@@ -1,0 +1,215 @@
+
+
+ local analysis of FTM0_PWM_DEINIT
+   scanning: Ftm_Pwm_Ip_DeInit (0);
+  scanning: return;
+Function is locally const.
+
+
+ local analysis of FTM0_PWM_INIT
+   scanning: Ftm_Pwm_Ip_Init (0, &Ftm_Pwm_Ip_BOARD_InitPeripherals_UserCfg0);
+  scanning: Ftm_Pwm_Ip_UpdatePwmPeriod (0, 20480, 1);
+  scanning: Ftm_Pwm_Ip_UpdatePwmChannel (0, 0, 20480, 0, 1);
+  scanning: Ftm_Pwm_Ip_UpdatePwmChannel (0, 0, 0, 0, 1);
+  scanning: return;
+Function is locally const.
+callgraph:
+
+Ftm_Pwm_Ip_DeInit/7 (Ftm_Pwm_Ip_DeInit) @06967380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: FTM0_PWM_DEINIT/2 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Ftm_Pwm_Ip_UpdatePwmChannel/6 (Ftm_Pwm_Ip_UpdatePwmChannel) @06967e00
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: FTM0_PWM_INIT/1 (1073741824 (estimated locally),1.00 per call) FTM0_PWM_INIT/1 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Ftm_Pwm_Ip_UpdatePwmPeriod/5 (Ftm_Pwm_Ip_UpdatePwmPeriod) @06967d20
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: FTM0_PWM_INIT/1 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Ftm_Pwm_Ip_Init/3 (Ftm_Pwm_Ip_Init) @06967c40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: FTM0_PWM_INIT/1 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+FTM0_PWM_DEINIT/2 (FTM0_PWM_DEINIT) @069677e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @06504728
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Ftm_Pwm_Ip_DeInit/7 (1073741824 (estimated locally),1.00 per call) 
+FTM0_PWM_INIT/1 (FTM0_PWM_INIT) @06967540
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @06504748
+  References: Ftm_Pwm_Ip_BOARD_InitPeripherals_UserCfg0/4 (addr)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Ftm_Pwm_Ip_UpdatePwmChannel/6 (1073741824 (estimated locally),1.00 per call) Ftm_Pwm_Ip_UpdatePwmChannel/6 (1073741824 (estimated locally),1.00 per call) Ftm_Pwm_Ip_UpdatePwmPeriod/5 (1073741824 (estimated locally),1.00 per call) Ftm_Pwm_Ip_Init/3 (1073741824 (estimated locally),1.00 per call) 
+
+
+ ordered call graph: reduced for nothrow
+FTM0_PWM_DEINIT/2 (FTM0_PWM_DEINIT) @069677e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @06504728
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Ftm_Pwm_Ip_DeInit/7 (1073741824 (estimated locally),1.00 per call) 
+FTM0_PWM_INIT/1 (FTM0_PWM_INIT) @06967540
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @06504748
+  References: Ftm_Pwm_Ip_BOARD_InitPeripherals_UserCfg0/4 (addr)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Ftm_Pwm_Ip_UpdatePwmChannel/6 (1073741824 (estimated locally),1.00 per call) Ftm_Pwm_Ip_UpdatePwmChannel/6 (1073741824 (estimated locally),1.00 per call) Ftm_Pwm_Ip_UpdatePwmPeriod/5 (1073741824 (estimated locally),1.00 per call) Ftm_Pwm_Ip_Init/3 (1073741824 (estimated locally),1.00 per call) 
+
+
+
+MALLOC LATTICE Initial:
+FTM0_PWM_DEINIT: malloc_bottom
+FTM0_PWM_INIT: malloc_bottom
+
+
+MALLOC LATTICE after propagation:
+FTM0_PWM_DEINIT: malloc_bottom
+FTM0_PWM_INIT: malloc_bottom
+callgraph:
+
+Ftm_Pwm_Ip_DeInit/7 (Ftm_Pwm_Ip_DeInit) @06967380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: FTM0_PWM_DEINIT/2 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Ftm_Pwm_Ip_UpdatePwmChannel/6 (Ftm_Pwm_Ip_UpdatePwmChannel) @06967e00
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: FTM0_PWM_INIT/1 (1073741824 (estimated locally),1.00 per call) FTM0_PWM_INIT/1 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Ftm_Pwm_Ip_UpdatePwmPeriod/5 (Ftm_Pwm_Ip_UpdatePwmPeriod) @06967d20
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: FTM0_PWM_INIT/1 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Ftm_Pwm_Ip_Init/3 (Ftm_Pwm_Ip_Init) @06967c40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: FTM0_PWM_INIT/1 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+FTM0_PWM_DEINIT/2 (FTM0_PWM_DEINIT) @069677e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @06504908
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Ftm_Pwm_Ip_DeInit/7 (1073741824 (estimated locally),1.00 per call) 
+FTM0_PWM_INIT/1 (FTM0_PWM_INIT) @06967540
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @06504728
+  References: Ftm_Pwm_Ip_BOARD_InitPeripherals_UserCfg0/4 (addr)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Ftm_Pwm_Ip_UpdatePwmChannel/6 (1073741824 (estimated locally),1.00 per call) Ftm_Pwm_Ip_UpdatePwmChannel/6 (1073741824 (estimated locally),1.00 per call) Ftm_Pwm_Ip_UpdatePwmPeriod/5 (1073741824 (estimated locally),1.00 per call) Ftm_Pwm_Ip_Init/3 (1073741824 (estimated locally),1.00 per call) 
+
+
+ ordered call graph: reduced
+FTM0_PWM_DEINIT/2 (FTM0_PWM_DEINIT) @069677e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @06504908
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Ftm_Pwm_Ip_DeInit/7 (1073741824 (estimated locally),1.00 per call) 
+FTM0_PWM_INIT/1 (FTM0_PWM_INIT) @06967540
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @06504728
+  References: Ftm_Pwm_Ip_BOARD_InitPeripherals_UserCfg0/4 (addr)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Ftm_Pwm_Ip_UpdatePwmChannel/6 (1073741824 (estimated locally),1.00 per call) Ftm_Pwm_Ip_UpdatePwmChannel/6 (1073741824 (estimated locally),1.00 per call) Ftm_Pwm_Ip_UpdatePwmPeriod/5 (1073741824 (estimated locally),1.00 per call) Ftm_Pwm_Ip_Init/3 (1073741824 (estimated locally),1.00 per call) 
+
+FTM0_PWM_DEINIT ()
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  Ftm_Pwm_Ip_DeInit (0);
+  return;
+
+}
+
+
+FTM0_PWM_INIT ()
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  Ftm_Pwm_Ip_Init (0, &Ftm_Pwm_Ip_BOARD_InitPeripherals_UserCfg0);
+  # DEBUG BEGIN_STMT
+  Ftm_Pwm_Ip_UpdatePwmPeriod (0, 20480, 1);
+  # DEBUG BEGIN_STMT
+  Ftm_Pwm_Ip_UpdatePwmChannel (0, 0, 20480, 0, 1);
+  # DEBUG BEGIN_STMT
+  Ftm_Pwm_Ip_UpdatePwmChannel (0, 0, 0, 0, 1);
+  return;
+
+}
+
+

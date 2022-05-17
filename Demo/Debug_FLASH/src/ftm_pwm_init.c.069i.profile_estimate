@@ -1,0 +1,27 @@
+Histogram:
+FTM0_PWM_DEINIT ()
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  Ftm_Pwm_Ip_DeInit (0);
+  return;
+
+}
+
+
+FTM0_PWM_INIT ()
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  Ftm_Pwm_Ip_Init (0, &Ftm_Pwm_Ip_BOARD_InitPeripherals_UserCfg0);
+  # DEBUG BEGIN_STMT
+  Ftm_Pwm_Ip_UpdatePwmPeriod (0, 20480, 1);
+  # DEBUG BEGIN_STMT
+  Ftm_Pwm_Ip_UpdatePwmChannel (0, 0, 20480, 0, 1);
+  # DEBUG BEGIN_STMT
+  Ftm_Pwm_Ip_UpdatePwmChannel (0, 0, 0, 0, 1);
+  return;
+
+}
+
+

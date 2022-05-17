@@ -1,0 +1,354 @@
+Trivially needed symbols: LPUART_UART_IP_1_IRQHandler
+
+
+Initial Symbol table:
+
+Lpuart_Uart_Ip_IrqHandler/28 (Lpuart_Uart_Ip_IrqHandler) @05dbd7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: LPUART_UART_IP_1_IRQHandler/27 
+  Calls: 
+LPUART_UART_IP_1_IRQHandler/27 (LPUART_UART_IP_1_IRQHandler) @05dbd380
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @01733ea0
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Lpuart_Uart_Ip_IrqHandler/28 
+Lpuart_Uart_Ip_FlushRxBuffer/26 (Lpuart_Uart_Ip_FlushRxBuffer) @05e55b60
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_FlushTxBuffer/25 (Lpuart_Uart_Ip_FlushTxBuffer) @05e558c0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_CheckTimeout/24 (Lpuart_Uart_Ip_CheckTimeout) @05e55620
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_StartTimeout/23 (Lpuart_Uart_Ip_StartTimeout) @05e55380
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_ClearErrorFlags/22 (Lpuart_Uart_Ip_ClearErrorFlags) @05e550e0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_ClearStatusFlagWithMask/21 (Lpuart_Uart_Ip_ClearStatusFlagWithMask) @05e50e00
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_ClearStatusFlag/20 (Lpuart_Uart_Ip_ClearStatusFlag) @05e50b60
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_GetStatusFlag/19 (Lpuart_Uart_Ip_GetStatusFlag) @05e508c0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_Getchar10/18 (Lpuart_Uart_Ip_Getchar10) @05e50620
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_Getchar9/17 (Lpuart_Uart_Ip_Getchar9) @05e50380
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_Getchar/16 (Lpuart_Uart_Ip_Getchar) @05e500e0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_Putchar10/15 (Lpuart_Uart_Ip_Putchar10) @05e46e00
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_Putchar9/14 (Lpuart_Uart_Ip_Putchar9) @05e46b60
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_Putchar/13 (Lpuart_Uart_Ip_Putchar) @05e468c0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_GetIntMode/12 (Lpuart_Uart_Ip_GetIntMode) @05e46620
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_SetIntMode/11 (Lpuart_Uart_Ip_SetIntMode) @05e46380
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_SetStopBitCount/10 (Lpuart_Uart_Ip_SetStopBitCount) @05e460e0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_SetParityMode/9 (Lpuart_Uart_Ip_SetParityMode) @05e41e00
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_SetBitCountPerChar/8 (Lpuart_Uart_Ip_SetBitCountPerChar) @05e41b60
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_EnableBothEdgeSamplingCmd/7 (Lpuart_Uart_Ip_EnableBothEdgeSamplingCmd) @05e418c0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_GetOversamplingRatio/6 (Lpuart_Uart_Ip_GetOversamplingRatio) @05e41620
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_SetOversamplingRatio/5 (Lpuart_Uart_Ip_SetOversamplingRatio) @05e41380
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_GetBaudRateDivisor/4 (Lpuart_Uart_Ip_GetBaudRateDivisor) @05e41000
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_SetBaudRateDivisor/3 (Lpuart_Uart_Ip_SetBaudRateDivisor) @05d8ad20
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_SetReceiverCmd/2 (Lpuart_Uart_Ip_SetReceiverCmd) @05d8aa80
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_SetTransmitterCmd/1 (Lpuart_Uart_Ip_SetTransmitterCmd) @05d8a7e0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Lpuart_Uart_Ip_Hw_Init/0 (Lpuart_Uart_Ip_Hw_Init) @05d8a540
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+
+Removing unused symbols: Lpuart_Uart_Ip_FlushRxBuffer Lpuart_Uart_Ip_FlushTxBuffer Lpuart_Uart_Ip_CheckTimeout Lpuart_Uart_Ip_StartTimeout Lpuart_Uart_Ip_ClearErrorFlags Lpuart_Uart_Ip_ClearStatusFlagWithMask Lpuart_Uart_Ip_ClearStatusFlag Lpuart_Uart_Ip_GetStatusFlag Lpuart_Uart_Ip_Getchar10 Lpuart_Uart_Ip_Getchar9 Lpuart_Uart_Ip_Getchar Lpuart_Uart_Ip_Putchar10 Lpuart_Uart_Ip_Putchar9 Lpuart_Uart_Ip_Putchar Lpuart_Uart_Ip_GetIntMode Lpuart_Uart_Ip_SetIntMode Lpuart_Uart_Ip_SetStopBitCount Lpuart_Uart_Ip_SetParityMode Lpuart_Uart_Ip_SetBitCountPerChar Lpuart_Uart_Ip_EnableBothEdgeSamplingCmd Lpuart_Uart_Ip_GetOversamplingRatio Lpuart_Uart_Ip_SetOversamplingRatio Lpuart_Uart_Ip_GetBaudRateDivisor Lpuart_Uart_Ip_SetBaudRateDivisor Lpuart_Uart_Ip_SetReceiverCmd Lpuart_Uart_Ip_SetTransmitterCmd Lpuart_Uart_Ip_Hw_Init
+
+Reclaimed Symbol table:
+
+Lpuart_Uart_Ip_IrqHandler/28 (Lpuart_Uart_Ip_IrqHandler) @05dbd7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: LPUART_UART_IP_1_IRQHandler/27 
+  Calls: 
+LPUART_UART_IP_1_IRQHandler/27 (LPUART_UART_IP_1_IRQHandler) @05dbd380
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Lpuart_Uart_Ip_IrqHandler/28 
+
+
+Initial Symbol table:
+
+Lpuart_Uart_Ip_IrqHandler/28 (Lpuart_Uart_Ip_IrqHandler) @05dbd7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: LPUART_UART_IP_1_IRQHandler/27 
+  Calls: 
+LPUART_UART_IP_1_IRQHandler/27 (LPUART_UART_IP_1_IRQHandler) @05dbd380
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Lpuart_Uart_Ip_IrqHandler/28 
+
+Removing unused symbols:
+
+Reclaimed Symbol table:
+
+Lpuart_Uart_Ip_IrqHandler/28 (Lpuart_Uart_Ip_IrqHandler) @05dbd7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: LPUART_UART_IP_1_IRQHandler/27 
+  Calls: 
+LPUART_UART_IP_1_IRQHandler/27 (LPUART_UART_IP_1_IRQHandler) @05dbd380
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Lpuart_Uart_Ip_IrqHandler/28 
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Optimized Symbol table:
+
+Lpuart_Uart_Ip_IrqHandler/28 (Lpuart_Uart_Ip_IrqHandler) @05dbd7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: LPUART_UART_IP_1_IRQHandler/27 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+LPUART_UART_IP_1_IRQHandler/27 (LPUART_UART_IP_1_IRQHandler) @05dbd380
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpuart_Uart_Ip_IrqHandler/28 (1073741824 (estimated locally),1.00 per call) 
+Materializing clones
+Materialization Call site updates done.
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Time profile order in expand_all_functions:LPUART_UART_IP_1_IRQHandler:0
+Trivially needed variables:
+Removing variables:
+
+Final Symbol table:
+
+Lpuart_Uart_Ip_IrqHandler/28 (Lpuart_Uart_Ip_IrqHandler) @05dbd7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+LPUART_UART_IP_1_IRQHandler/27 (LPUART_UART_IP_1_IRQHandler) @05dbd380
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) optimize_size
+  Called by: 
+  Calls: 

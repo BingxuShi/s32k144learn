@@ -1,0 +1,634 @@
+Trivially needed symbols: Flexcan0_callback FLEXCAN0_SEND FLEXCAN0_RX_INIT FLEXCAN0_INIT rxData
+
+
+Initial Symbol table:
+
+FlexCAN_Ip_Send/12 (FlexCAN_Ip_Send) @06f5ab60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: FLEXCAN0_SEND/4 
+  Calls: 
+FlexCAN_Ip_Receive/11 (FlexCAN_Ip_Receive) @06f5a9a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Flexcan0_callback/5 FLEXCAN0_RX_INIT/3 
+  Calls: 
+FlexCAN_Ip_ConfigRxMb/10 (FlexCAN_Ip_ConfigRxMb) @06f5a8c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: FLEXCAN0_RX_INIT/3 
+  Calls: 
+FlexCAN_Ip_SetStartMode_Privileged/9 (FlexCAN_Ip_SetStartMode_Privileged) @06f5a700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: FLEXCAN0_INIT/2 
+  Calls: 
+FlexCAN_Config0/8 (FlexCAN_Config0) @06f57948
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: FLEXCAN0_INIT/2 (addr)FLEXCAN0_INIT/2 (addr)
+  Availability: not-ready
+  Varpool flags: read-only
+FlexCAN_State0/7 (FlexCAN_State0) @06f57900
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: FLEXCAN0_INIT/2 (addr)FLEXCAN0_INIT/2 (addr)
+  Availability: not-ready
+  Varpool flags:
+FlexCAN_Ip_Init_Privileged/6 (FlexCAN_Ip_Init_Privileged) @06f5a620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: FLEXCAN0_INIT/2 FLEXCAN0_INIT/2 
+  Calls: 
+Flexcan0_callback/5 (Flexcan0_callback) @06f5a1c0
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @01733ea0
+  References: rxData/1 (read)rxData/1 (read)rxData/1 (addr)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: FlexCAN_Ip_Receive/11 FLEXCAN0_SEND/4 
+FLEXCAN0_SEND/4 (FLEXCAN0_SEND) @06f55ee0
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @06f5a1c0
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Flexcan0_callback/5 
+  Calls: FlexCAN_Ip_Send/12 
+FLEXCAN0_RX_INIT/3 (FLEXCAN0_RX_INIT) @06f55c40
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @06f55ee0
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: FlexCAN_Ip_Receive/11 FlexCAN_Ip_ConfigRxMb/10 
+FLEXCAN0_INIT/2 (FLEXCAN0_INIT) @06f559a0
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @06f55c40
+  References: FlexCAN_State0/7 (addr)FlexCAN_Config0/8 (addr)FlexCAN_State0/7 (addr)FlexCAN_Config0/8 (addr)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: FlexCAN_Ip_SetStartMode_Privileged/9 FlexCAN_Ip_Init_Privileged/6 FlexCAN_Ip_Init_Privileged/6 
+rxData/1 (rxData) @06f571f8
+  Type: variable definition analyzed
+  Visibility: public
+  Aux: @06f559a0
+  References: 
+  Referring: Flexcan0_callback/5 (read)Flexcan0_callback/5 (read)Flexcan0_callback/5 (addr)
+  Availability: not-ready
+  Varpool flags:
+DevAssert/0 (DevAssert) @06f7ba80
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+
+Removing unused symbols: DevAssert
+
+Reclaimed Symbol table:
+
+FlexCAN_Ip_Send/12 (FlexCAN_Ip_Send) @06f5ab60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: FLEXCAN0_SEND/4 
+  Calls: 
+FlexCAN_Ip_Receive/11 (FlexCAN_Ip_Receive) @06f5a9a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Flexcan0_callback/5 FLEXCAN0_RX_INIT/3 
+  Calls: 
+FlexCAN_Ip_ConfigRxMb/10 (FlexCAN_Ip_ConfigRxMb) @06f5a8c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: FLEXCAN0_RX_INIT/3 
+  Calls: 
+FlexCAN_Ip_SetStartMode_Privileged/9 (FlexCAN_Ip_SetStartMode_Privileged) @06f5a700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: FLEXCAN0_INIT/2 
+  Calls: 
+FlexCAN_Config0/8 (FlexCAN_Config0) @06f57948
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: FLEXCAN0_INIT/2 (addr)FLEXCAN0_INIT/2 (addr)
+  Availability: not-ready
+  Varpool flags: read-only
+FlexCAN_State0/7 (FlexCAN_State0) @06f57900
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: FLEXCAN0_INIT/2 (addr)FLEXCAN0_INIT/2 (addr)
+  Availability: not-ready
+  Varpool flags:
+FlexCAN_Ip_Init_Privileged/6 (FlexCAN_Ip_Init_Privileged) @06f5a620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: FLEXCAN0_INIT/2 FLEXCAN0_INIT/2 
+  Calls: 
+Flexcan0_callback/5 (Flexcan0_callback) @06f5a1c0
+  Type: function definition analyzed
+  Visibility: public
+  References: rxData/1 (read)rxData/1 (read)rxData/1 (addr)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: FlexCAN_Ip_Receive/11 FLEXCAN0_SEND/4 
+FLEXCAN0_SEND/4 (FLEXCAN0_SEND) @06f55ee0
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Flexcan0_callback/5 
+  Calls: FlexCAN_Ip_Send/12 
+FLEXCAN0_RX_INIT/3 (FLEXCAN0_RX_INIT) @06f55c40
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: FlexCAN_Ip_Receive/11 FlexCAN_Ip_ConfigRxMb/10 
+FLEXCAN0_INIT/2 (FLEXCAN0_INIT) @06f559a0
+  Type: function definition analyzed
+  Visibility: public
+  References: FlexCAN_State0/7 (addr)FlexCAN_Config0/8 (addr)FlexCAN_State0/7 (addr)FlexCAN_Config0/8 (addr)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: FlexCAN_Ip_SetStartMode_Privileged/9 FlexCAN_Ip_Init_Privileged/6 FlexCAN_Ip_Init_Privileged/6 
+rxData/1 (rxData) @06f571f8
+  Type: variable definition analyzed
+  Visibility: public
+  References: 
+  Referring: Flexcan0_callback/5 (read)Flexcan0_callback/5 (read)Flexcan0_callback/5 (addr)
+  Availability: not-ready
+  Varpool flags:
+
+
+Initial Symbol table:
+
+FlexCAN_Ip_Send/12 (FlexCAN_Ip_Send) @06f5ab60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: FLEXCAN0_SEND/4 
+  Calls: 
+FlexCAN_Ip_Receive/11 (FlexCAN_Ip_Receive) @06f5a9a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Flexcan0_callback/5 FLEXCAN0_RX_INIT/3 
+  Calls: 
+FlexCAN_Ip_ConfigRxMb/10 (FlexCAN_Ip_ConfigRxMb) @06f5a8c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: FLEXCAN0_RX_INIT/3 
+  Calls: 
+FlexCAN_Ip_SetStartMode_Privileged/9 (FlexCAN_Ip_SetStartMode_Privileged) @06f5a700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: FLEXCAN0_INIT/2 
+  Calls: 
+FlexCAN_Config0/8 (FlexCAN_Config0) @06f57948
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: FLEXCAN0_INIT/2 (addr)FLEXCAN0_INIT/2 (addr)
+  Availability: not-ready
+  Varpool flags: read-only
+FlexCAN_State0/7 (FlexCAN_State0) @06f57900
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: FLEXCAN0_INIT/2 (addr)FLEXCAN0_INIT/2 (addr)
+  Availability: not-ready
+  Varpool flags:
+FlexCAN_Ip_Init_Privileged/6 (FlexCAN_Ip_Init_Privileged) @06f5a620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: FLEXCAN0_INIT/2 FLEXCAN0_INIT/2 
+  Calls: 
+Flexcan0_callback/5 (Flexcan0_callback) @06f5a1c0
+  Type: function definition analyzed
+  Visibility: public
+  References: rxData/1 (read)rxData/1 (read)rxData/1 (addr)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: FlexCAN_Ip_Receive/11 FLEXCAN0_SEND/4 
+FLEXCAN0_SEND/4 (FLEXCAN0_SEND) @06f55ee0
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Flexcan0_callback/5 
+  Calls: FlexCAN_Ip_Send/12 
+FLEXCAN0_RX_INIT/3 (FLEXCAN0_RX_INIT) @06f55c40
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: FlexCAN_Ip_Receive/11 FlexCAN_Ip_ConfigRxMb/10 
+FLEXCAN0_INIT/2 (FLEXCAN0_INIT) @06f559a0
+  Type: function definition analyzed
+  Visibility: public
+  References: FlexCAN_State0/7 (addr)FlexCAN_Config0/8 (addr)FlexCAN_State0/7 (addr)FlexCAN_Config0/8 (addr)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: FlexCAN_Ip_SetStartMode_Privileged/9 FlexCAN_Ip_Init_Privileged/6 FlexCAN_Ip_Init_Privileged/6 
+rxData/1 (rxData) @06f571f8
+  Type: variable definition analyzed
+  Visibility: public
+  References: 
+  Referring: Flexcan0_callback/5 (read)Flexcan0_callback/5 (read)Flexcan0_callback/5 (addr)
+  Availability: not-ready
+  Varpool flags:
+
+Removing unused symbols:
+
+Reclaimed Symbol table:
+
+FlexCAN_Ip_Send/12 (FlexCAN_Ip_Send) @06f5ab60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: FLEXCAN0_SEND/4 
+  Calls: 
+FlexCAN_Ip_Receive/11 (FlexCAN_Ip_Receive) @06f5a9a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Flexcan0_callback/5 FLEXCAN0_RX_INIT/3 
+  Calls: 
+FlexCAN_Ip_ConfigRxMb/10 (FlexCAN_Ip_ConfigRxMb) @06f5a8c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: FLEXCAN0_RX_INIT/3 
+  Calls: 
+FlexCAN_Ip_SetStartMode_Privileged/9 (FlexCAN_Ip_SetStartMode_Privileged) @06f5a700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: FLEXCAN0_INIT/2 
+  Calls: 
+FlexCAN_Config0/8 (FlexCAN_Config0) @06f57948
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: FLEXCAN0_INIT/2 (addr)FLEXCAN0_INIT/2 (addr)
+  Availability: not-ready
+  Varpool flags: read-only
+FlexCAN_State0/7 (FlexCAN_State0) @06f57900
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: FLEXCAN0_INIT/2 (addr)FLEXCAN0_INIT/2 (addr)
+  Availability: not-ready
+  Varpool flags:
+FlexCAN_Ip_Init_Privileged/6 (FlexCAN_Ip_Init_Privileged) @06f5a620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: FLEXCAN0_INIT/2 FLEXCAN0_INIT/2 
+  Calls: 
+Flexcan0_callback/5 (Flexcan0_callback) @06f5a1c0
+  Type: function definition analyzed
+  Visibility: public
+  References: rxData/1 (read)rxData/1 (read)rxData/1 (addr)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: FlexCAN_Ip_Receive/11 FLEXCAN0_SEND/4 
+FLEXCAN0_SEND/4 (FLEXCAN0_SEND) @06f55ee0
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Flexcan0_callback/5 
+  Calls: FlexCAN_Ip_Send/12 
+FLEXCAN0_RX_INIT/3 (FLEXCAN0_RX_INIT) @06f55c40
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: FlexCAN_Ip_Receive/11 FlexCAN_Ip_ConfigRxMb/10 
+FLEXCAN0_INIT/2 (FLEXCAN0_INIT) @06f559a0
+  Type: function definition analyzed
+  Visibility: public
+  References: FlexCAN_State0/7 (addr)FlexCAN_Config0/8 (addr)FlexCAN_State0/7 (addr)FlexCAN_Config0/8 (addr)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: FlexCAN_Ip_SetStartMode_Privileged/9 FlexCAN_Ip_Init_Privileged/6 FlexCAN_Ip_Init_Privileged/6 
+rxData/1 (rxData) @06f571f8
+  Type: variable definition analyzed
+  Visibility: public
+  References: 
+  Referring: Flexcan0_callback/5 (read)Flexcan0_callback/5 (read)Flexcan0_callback/5 (addr)
+  Availability: not-ready
+  Varpool flags:
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Optimized Symbol table:
+
+FlexCAN_Ip_Send/12 (FlexCAN_Ip_Send) @06f5ab60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: FLEXCAN0_SEND/4 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+FlexCAN_Ip_Receive/11 (FlexCAN_Ip_Receive) @06f5a9a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Flexcan0_callback/5 (1073741824 (estimated locally),1.00 per call) FLEXCAN0_RX_INIT/3 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+FlexCAN_Ip_ConfigRxMb/10 (FlexCAN_Ip_ConfigRxMb) @06f5a8c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: FLEXCAN0_RX_INIT/3 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+FlexCAN_Ip_SetStartMode_Privileged/9 (FlexCAN_Ip_SetStartMode_Privileged) @06f5a700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: FLEXCAN0_INIT/2 (118111601 (estimated locally),1.00 per call) 
+  Calls: 
+FlexCAN_Config0/8 (FlexCAN_Config0) @06f57948
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: FLEXCAN0_INIT/2 (addr)FLEXCAN0_INIT/2 (addr)
+  Availability: not_available
+  Varpool flags: read-only
+FlexCAN_State0/7 (FlexCAN_State0) @06f57900
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: FLEXCAN0_INIT/2 (addr)FLEXCAN0_INIT/2 (addr)
+  Availability: not_available
+  Varpool flags:
+FlexCAN_Ip_Init_Privileged/6 (FlexCAN_Ip_Init_Privileged) @06f5a620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: FLEXCAN0_INIT/2 (955630223 (estimated locally),8.09 per call) FLEXCAN0_INIT/2 (118111600 (estimated locally),1.00 per call) 
+  Calls: 
+Flexcan0_callback/5 (Flexcan0_callback) @06f5a1c0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: rxData/1 (addr)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: FlexCAN_Ip_Receive/11 (1073741824 (estimated locally),1.00 per call) FLEXCAN0_SEND/4 (1073741824 (estimated locally),1.00 per call) 
+FLEXCAN0_SEND/4 (FLEXCAN0_SEND) @06f55ee0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: Flexcan0_callback/5 (1073741824 (estimated locally),1.00 per call) 
+  Calls: FlexCAN_Ip_Send/12 (1073741824 (estimated locally),1.00 per call) 
+FLEXCAN0_RX_INIT/3 (FLEXCAN0_RX_INIT) @06f55c40
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: FlexCAN_Ip_Receive/11 (1073741824 (estimated locally),1.00 per call) FlexCAN_Ip_ConfigRxMb/10 (1073741824 (estimated locally),1.00 per call) 
+FLEXCAN0_INIT/2 (FLEXCAN0_INIT) @06f559a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: FlexCAN_State0/7 (addr)FlexCAN_Config0/8 (addr)FlexCAN_State0/7 (addr)FlexCAN_Config0/8 (addr)
+  Referring: 
+  Availability: available
+  Function flags: count:118111600 (estimated locally) body optimize_size
+  Called by: 
+  Calls: FlexCAN_Ip_SetStartMode_Privileged/9 (118111601 (estimated locally),1.00 per call) FlexCAN_Ip_Init_Privileged/6 (955630223 (estimated locally),8.09 per call) FlexCAN_Ip_Init_Privileged/6 (118111600 (estimated locally),1.00 per call) 
+rxData/1 (rxData) @06f571f8
+  Type: variable definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: Flexcan0_callback/5 (addr)
+  Availability: available
+  Varpool flags:
+Materializing clones
+Materialization Call site updates done.
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Time profile order in expand_all_functions:FLEXCAN0_INIT:0
+Time profile order in expand_all_functions:FLEXCAN0_RX_INIT:0
+Time profile order in expand_all_functions:FLEXCAN0_SEND:0
+Time profile order in expand_all_functions:Flexcan0_callback:0
+Trivially needed variables: rxData
+Removing variables:
+
+Final Symbol table:
+
+FlexCAN_Ip_Send/12 (FlexCAN_Ip_Send) @06f5ab60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+FlexCAN_Ip_Receive/11 (FlexCAN_Ip_Receive) @06f5a9a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+FlexCAN_Ip_ConfigRxMb/10 (FlexCAN_Ip_ConfigRxMb) @06f5a8c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+FlexCAN_Ip_SetStartMode_Privileged/9 (FlexCAN_Ip_SetStartMode_Privileged) @06f5a700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+FlexCAN_Config0/8 (FlexCAN_Config0) @06f57948
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Varpool flags: read-only
+FlexCAN_State0/7 (FlexCAN_State0) @06f57900
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Varpool flags:
+FlexCAN_Ip_Init_Privileged/6 (FlexCAN_Ip_Init_Privileged) @06f5a620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Flexcan0_callback/5 (Flexcan0_callback) @06f5a1c0
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) optimize_size
+  Called by: 
+  Calls: 
+FLEXCAN0_SEND/4 (FLEXCAN0_SEND) @06f55ee0
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) optimize_size
+  Called by: 
+  Calls: 
+FLEXCAN0_RX_INIT/3 (FLEXCAN0_RX_INIT) @06f55c40
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) optimize_size
+  Called by: 
+  Calls: 
+FLEXCAN0_INIT/2 (FLEXCAN0_INIT) @06f559a0
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:118111600 (estimated locally) optimize_size
+  Called by: 
+  Calls: 
+rxData/1 (rxData) @06f571f8
+  Type: variable definition analyzed
+  Visibility: externally_visible asm_written public
+  Aux: @00000001
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags:

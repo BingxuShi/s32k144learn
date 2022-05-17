@@ -1,0 +1,851 @@
+
+Marking local functions: Port_Ci_Port_Ip_PinInit DevAssert
+
+
+Marking externally visible functions: Port_Ci_Port_Ip_SetGlobalPinControl Port_Ci_Port_Ip_ConfigDigitalFilter Port_Ci_Port_Ip_DisableDigitalFilter Port_Ci_Port_Ip_EnableDigitalFilter Port_Ci_Port_Ip_SetMuxModeSel Port_Ci_Port_Ip_Init Port_Ci_Port_Ip_SetDFER Port_Ci_Port_Ip_SetPIDR Port_Ci_Port_Ip_ClearPDDR Port_Ci_Port_Ip_SetPDDR Port_Ci_Port_Ip_SetPCOR Port_Ci_Port_Ip_SetPSOR Port_Ci_Port_Ip_SetPCR Port_Ci_Port_Ip_ReadPCR
+
+
+Marking externally visible variables: Port_au32PortCiGpioBaseAddr Port_au32PortCiPortBaseAddr
+
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Symbol table:
+
+SchM_Exit_Port_PORT_EXCLUSIVE_AREA_08/33 (SchM_Exit_Port_PORT_EXCLUSIVE_AREA_08) @05ee7540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Port_Ci_Port_Ip_DisableDigitalFilter/15 
+  Calls: 
+SchM_Enter_Port_PORT_EXCLUSIVE_AREA_08/32 (SchM_Enter_Port_PORT_EXCLUSIVE_AREA_08) @05ee7ee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Port_Ci_Port_Ip_DisableDigitalFilter/15 
+  Calls: 
+SchM_Exit_Port_PORT_EXCLUSIVE_AREA_07/31 (SchM_Exit_Port_PORT_EXCLUSIVE_AREA_07) @05ee7d20
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Port_Ci_Port_Ip_EnableDigitalFilter/14 
+  Calls: 
+SchM_Enter_Port_PORT_EXCLUSIVE_AREA_07/30 (SchM_Enter_Port_PORT_EXCLUSIVE_AREA_07) @05ee7c40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Port_Ci_Port_Ip_EnableDigitalFilter/14 
+  Calls: 
+SchM_Exit_Port_PORT_EXCLUSIVE_AREA_06/29 (SchM_Exit_Port_PORT_EXCLUSIVE_AREA_06) @05ee7a80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Port_Ci_Port_Ip_SetMuxModeSel/13 
+  Calls: 
+SchM_Enter_Port_PORT_EXCLUSIVE_AREA_06/28 (SchM_Enter_Port_PORT_EXCLUSIVE_AREA_06) @05ee79a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Port_Ci_Port_Ip_SetMuxModeSel/13 
+  Calls: 
+SchM_Exit_Port_PORT_EXCLUSIVE_AREA_01/27 (SchM_Exit_Port_PORT_EXCLUSIVE_AREA_01) @05ee77e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Port_Ci_Port_Ip_PinInit/3 
+  Calls: 
+SchM_Enter_Port_PORT_EXCLUSIVE_AREA_01/26 (SchM_Enter_Port_PORT_EXCLUSIVE_AREA_01) @05ee7700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Port_Ci_Port_Ip_PinInit/3 
+  Calls: 
+SchM_Exit_Port_PORT_EXCLUSIVE_AREA_05/25 (SchM_Exit_Port_PORT_EXCLUSIVE_AREA_05) @05ee7380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Port_Ci_Port_Ip_SetDFER/11 
+  Calls: 
+SchM_Enter_Port_PORT_EXCLUSIVE_AREA_05/24 (SchM_Enter_Port_PORT_EXCLUSIVE_AREA_05) @05ee72a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Port_Ci_Port_Ip_SetDFER/11 
+  Calls: 
+SchM_Exit_Port_PORT_EXCLUSIVE_AREA_04/23 (SchM_Exit_Port_PORT_EXCLUSIVE_AREA_04) @05ee70e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Port_Ci_Port_Ip_SetPIDR/10 
+  Calls: 
+SchM_Enter_Port_PORT_EXCLUSIVE_AREA_04/22 (SchM_Enter_Port_PORT_EXCLUSIVE_AREA_04) @05ee7000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Port_Ci_Port_Ip_SetPIDR/10 
+  Calls: 
+SchM_Exit_Port_PORT_EXCLUSIVE_AREA_03/21 (SchM_Exit_Port_PORT_EXCLUSIVE_AREA_03) @05ee0ee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Port_Ci_Port_Ip_ClearPDDR/9 
+  Calls: 
+SchM_Enter_Port_PORT_EXCLUSIVE_AREA_03/20 (SchM_Enter_Port_PORT_EXCLUSIVE_AREA_03) @05ee0e00
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Port_Ci_Port_Ip_ClearPDDR/9 
+  Calls: 
+SchM_Exit_Port_PORT_EXCLUSIVE_AREA_02/19 (SchM_Exit_Port_PORT_EXCLUSIVE_AREA_02) @05ee0c40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Port_Ci_Port_Ip_SetPDDR/8 
+  Calls: 
+SchM_Enter_Port_PORT_EXCLUSIVE_AREA_02/18 (SchM_Enter_Port_PORT_EXCLUSIVE_AREA_02) @05ee0b60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Port_Ci_Port_Ip_SetPDDR/8 
+  Calls: 
+Port_Ci_Port_Ip_SetGlobalPinControl/17 (Port_Ci_Port_Ip_SetGlobalPinControl) @05ee02a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: DevAssert/0 
+Port_Ci_Port_Ip_ConfigDigitalFilter/16 (Port_Ci_Port_Ip_ConfigDigitalFilter) @05ee0000
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: DevAssert/0 
+Port_Ci_Port_Ip_DisableDigitalFilter/15 (Port_Ci_Port_Ip_DisableDigitalFilter) @05de82a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: SchM_Exit_Port_PORT_EXCLUSIVE_AREA_08/33 SchM_Enter_Port_PORT_EXCLUSIVE_AREA_08/32 DevAssert/0 
+Port_Ci_Port_Ip_EnableDigitalFilter/14 (Port_Ci_Port_Ip_EnableDigitalFilter) @05de8e00
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: SchM_Exit_Port_PORT_EXCLUSIVE_AREA_07/31 SchM_Enter_Port_PORT_EXCLUSIVE_AREA_07/30 DevAssert/0 
+Port_Ci_Port_Ip_SetMuxModeSel/13 (Port_Ci_Port_Ip_SetMuxModeSel) @05de8b60
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: SchM_Exit_Port_PORT_EXCLUSIVE_AREA_06/29 SchM_Enter_Port_PORT_EXCLUSIVE_AREA_06/28 DevAssert/0 DevAssert/0 
+Port_Ci_Port_Ip_Init/12 (Port_Ci_Port_Ip_Init) @05de8700
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Port_Ci_Port_Ip_PinInit/3 
+Port_Ci_Port_Ip_SetDFER/11 (Port_Ci_Port_Ip_SetDFER) @05de8460
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: SchM_Exit_Port_PORT_EXCLUSIVE_AREA_05/25 SchM_Enter_Port_PORT_EXCLUSIVE_AREA_05/24 
+Port_Ci_Port_Ip_SetPIDR/10 (Port_Ci_Port_Ip_SetPIDR) @05de81c0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: SchM_Exit_Port_PORT_EXCLUSIVE_AREA_04/23 SchM_Enter_Port_PORT_EXCLUSIVE_AREA_04/22 
+Port_Ci_Port_Ip_ClearPDDR/9 (Port_Ci_Port_Ip_ClearPDDR) @05de0d20
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: SchM_Exit_Port_PORT_EXCLUSIVE_AREA_03/21 SchM_Enter_Port_PORT_EXCLUSIVE_AREA_03/20 
+Port_Ci_Port_Ip_SetPDDR/8 (Port_Ci_Port_Ip_SetPDDR) @05de0700
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: SchM_Exit_Port_PORT_EXCLUSIVE_AREA_02/19 SchM_Enter_Port_PORT_EXCLUSIVE_AREA_02/18 
+Port_Ci_Port_Ip_SetPCOR/7 (Port_Ci_Port_Ip_SetPCOR) @05de0ee0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: 
+Port_Ci_Port_Ip_SetPSOR/6 (Port_Ci_Port_Ip_SetPSOR) @05de0c40
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: 
+Port_Ci_Port_Ip_SetPCR/5 (Port_Ci_Port_Ip_SetPCR) @05de09a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: DevAssert/0 DevAssert/0 
+Port_Ci_Port_Ip_ReadPCR/4 (Port_Ci_Port_Ip_ReadPCR) @05de0620
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: DevAssert/0 
+Port_Ci_Port_Ip_PinInit/3 (Port_Ci_Port_Ip_PinInit) @05de0380
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: body local optimize_size
+  Called by: Port_Ci_Port_Ip_Init/12 
+  Calls: SchM_Exit_Port_PORT_EXCLUSIVE_AREA_01/27 SchM_Enter_Port_PORT_EXCLUSIVE_AREA_01/26 DevAssert/0 DevAssert/0 DevAssert/0 
+Port_au32PortCiGpioBaseAddr/2 (Port_au32PortCiGpioBaseAddr) @05ddd000
+  Type: variable definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags: initialized
+Port_au32PortCiPortBaseAddr/1 (Port_au32PortCiPortBaseAddr) @05e0ff30
+  Type: variable definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags: initialized
+DevAssert/0 (DevAssert) @05d60c40
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: body local optimize_size
+  Called by: Port_Ci_Port_Ip_SetGlobalPinControl/17 Port_Ci_Port_Ip_ConfigDigitalFilter/16 Port_Ci_Port_Ip_DisableDigitalFilter/15 Port_Ci_Port_Ip_EnableDigitalFilter/14 Port_Ci_Port_Ip_SetMuxModeSel/13 Port_Ci_Port_Ip_SetMuxModeSel/13 Port_Ci_Port_Ip_PinInit/3 Port_Ci_Port_Ip_PinInit/3 Port_Ci_Port_Ip_PinInit/3 Port_Ci_Port_Ip_SetPCR/5 Port_Ci_Port_Ip_SetPCR/5 Port_Ci_Port_Ip_ReadPCR/4 
+  Calls: 
+Port_Ci_Port_Ip_SetGlobalPinControl (struct PORT_Type * const base, uint16 pins, uint16 value, Port_Ci_Port_Ip_PortGlobalControlPins halfPort)
+{
+  uint16 mask;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  mask = 0;
+  # DEBUG BEGIN_STMT
+  mask = mask | 1;
+  # DEBUG BEGIN_STMT
+  mask = mask | 2;
+  # DEBUG BEGIN_STMT
+  mask = mask | 16;
+  # DEBUG BEGIN_STMT
+  mask = mask | 64;
+  # DEBUG BEGIN_STMT
+  mask = mask | 1792;
+  # DEBUG BEGIN_STMT
+  mask = mask | 32768;
+  # DEBUG BEGIN_STMT
+  mask = mask & value;
+  # DEBUG BEGIN_STMT
+  switch (halfPort) <default: <L2> [INV], case 0: <L0> [INV], case 1: <L1> [INV]>
+
+  <bb 3> :
+<L0>:
+  # DEBUG BEGIN_STMT
+  _1 = (long unsigned int) pins;
+  _2 = _1 << 16;
+  _3 = (long unsigned int) mask;
+  _4 = _2 | _3;
+  base->GPCLR = _4;
+  # DEBUG BEGIN_STMT
+  goto <bb 6>; [INV]
+
+  <bb 4> :
+<L1>:
+  # DEBUG BEGIN_STMT
+  _5 = (long unsigned int) pins;
+  _6 = _5 << 16;
+  _7 = (long unsigned int) mask;
+  _8 = _6 | _7;
+  base->GPCHR = _8;
+  # DEBUG BEGIN_STMT
+  goto <bb 6>; [INV]
+
+  <bb 5> :
+<L2>:
+  # DEBUG BEGIN_STMT
+  DevAssert (0);
+  # DEBUG BEGIN_STMT
+
+  <bb 6> :
+  return;
+
+}
+
+
+Port_Ci_Port_Ip_ConfigDigitalFilter (struct PORT_Type * const base, const struct Port_Ci_Port_Ip_DigitalFilterConfigType * config)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = config->u8Width;
+  _2 = _1 <= 31;
+  DevAssert (_2);
+  # DEBUG BEGIN_STMT
+  _3 = config->u8Clock;
+  _4 = (long unsigned int) _3;
+  _5 = _4 & 1;
+  base->DFCR = _5;
+  # DEBUG BEGIN_STMT
+  _6 = config->u8Width;
+  _7 = (long unsigned int) _6;
+  _8 = _7 & 31;
+  base->DFWR = _8;
+  return;
+
+}
+
+
+Port_Ci_Port_Ip_DisableDigitalFilter (struct PORT_Type * const base, uint32 pin)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = pin <= 31;
+  DevAssert (_1);
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Port_PORT_EXCLUSIVE_AREA_08 ();
+  # DEBUG BEGIN_STMT
+  _2 = base->DFER;
+  _3 = 1 << pin;
+  _4 = ~_3;
+  _5 = _2 & _4;
+  base->DFER = _5;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Port_PORT_EXCLUSIVE_AREA_08 ();
+  return;
+
+}
+
+
+Port_Ci_Port_Ip_EnableDigitalFilter (struct PORT_Type * const base, uint32 pin)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = pin <= 31;
+  DevAssert (_1);
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Port_PORT_EXCLUSIVE_AREA_07 ();
+  # DEBUG BEGIN_STMT
+  _2 = base->DFER;
+  _3 = 1 << pin;
+  _4 = _2 | _3;
+  base->DFER = _4;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Port_PORT_EXCLUSIVE_AREA_07 ();
+  return;
+
+}
+
+
+Port_Ci_Port_Ip_SetMuxModeSel (struct PORT_Type * const base, uint32 pin, Port_Ci_Port_Ip_PortMux mux)
+{
+  uint32 regValue;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = pin <= 31;
+  DevAssert (_1);
+  # DEBUG BEGIN_STMT
+  _2 = base->PCR[pin];
+  _3 = _2 & 32768;
+  _4 = _3 == 0;
+  DevAssert (_4);
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Port_PORT_EXCLUSIVE_AREA_06 ();
+  # DEBUG BEGIN_STMT
+  regValue = base->PCR[pin];
+  # DEBUG BEGIN_STMT
+  regValue = regValue & 4294965503;
+  # DEBUG BEGIN_STMT
+  _5 = mux << 8;
+  _6 = _5 & 1792;
+  regValue = regValue | _6;
+  # DEBUG BEGIN_STMT
+  base->PCR[pin] = regValue;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Port_PORT_EXCLUSIVE_AREA_06 ();
+  return;
+
+}
+
+
+Port_Ci_Port_Ip_Init (uint32 pinCount, const struct Port_Ci_Port_Ip_PinSettingsConfig * config)
+{
+  uint32 i;
+  Port_Ci_Port_Ip_PortStatusType D.5776;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  i = 0;
+  goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  _1 = i * 40;
+  _2 = config + _1;
+  Port_Ci_Port_Ip_PinInit (_2);
+  # DEBUG BEGIN_STMT
+  i = i + 1;
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  if (i < pinCount)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  D.5776 = 0;
+  return D.5776;
+
+}
+
+
+Port_Ci_Port_Ip_SetDFER (struct PORT_Type * base, uint32 pinMask)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Port_PORT_EXCLUSIVE_AREA_05 ();
+  # DEBUG BEGIN_STMT
+  _1 = base->DFER;
+  _2 = pinMask | _1;
+  base->DFER = _2;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Port_PORT_EXCLUSIVE_AREA_05 ();
+  return;
+
+}
+
+
+Port_Ci_Port_Ip_SetPIDR (struct GPIO_Type * base, uint32 Pin)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Port_PORT_EXCLUSIVE_AREA_04 ();
+  # DEBUG BEGIN_STMT
+  _1 = base->PIDR;
+  _2 = Pin | _1;
+  base->PIDR = _2;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Port_PORT_EXCLUSIVE_AREA_04 ();
+  return;
+
+}
+
+
+Port_Ci_Port_Ip_ClearPDDR (struct GPIO_Type * base, uint32 Pin)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Port_PORT_EXCLUSIVE_AREA_03 ();
+  # DEBUG BEGIN_STMT
+  _1 = base->PDDR;
+  _2 = ~Pin;
+  _3 = _1 & _2;
+  base->PDDR = _3;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Port_PORT_EXCLUSIVE_AREA_03 ();
+  return;
+
+}
+
+
+Port_Ci_Port_Ip_SetPDDR (struct GPIO_Type * base, uint32 Pin)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Port_PORT_EXCLUSIVE_AREA_02 ();
+  # DEBUG BEGIN_STMT
+  _1 = base->PDDR;
+  _2 = Pin | _1;
+  base->PDDR = _2;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Port_PORT_EXCLUSIVE_AREA_02 ();
+  return;
+
+}
+
+
+Port_Ci_Port_Ip_SetPCOR (struct GPIO_Type * base, uint32 Pin)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  base->PCOR = Pin;
+  return;
+
+}
+
+
+Port_Ci_Port_Ip_SetPSOR (struct GPIO_Type * base, uint32 Pin)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  base->PSOR = Pin;
+  return;
+
+}
+
+
+Port_Ci_Port_Ip_SetPCR (struct PORT_Type * base, uint32 MscrInstance, uint32 value)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = MscrInstance <= 31;
+  DevAssert (_1);
+  # DEBUG BEGIN_STMT
+  _2 = base->PCR[MscrInstance];
+  _3 = _2 & 32768;
+  _4 = _3 == 0;
+  DevAssert (_4);
+  # DEBUG BEGIN_STMT
+  base->PCR[MscrInstance] = value;
+  return;
+
+}
+
+
+Port_Ci_Port_Ip_ReadPCR (const struct PORT_Type * base, uint32 MscrInstance)
+{
+  uint32 D.5771;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = MscrInstance <= 31;
+  DevAssert (_1);
+  # DEBUG BEGIN_STMT
+  D.5771 = base->PCR[MscrInstance];
+  return D.5771;
+
+}
+
+
+Port_Ci_Port_Ip_PinInit (const struct Port_Ci_Port_Ip_PinSettingsConfig * config)
+{
+  uint32 digitalFilters;
+  uint32 pinsValues;
+  long unsigned int iftmp.2;
+  long unsigned int iftmp.1;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  pinsValues = 0;
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _1 = config != 0B;
+  DevAssert (_1);
+  # DEBUG BEGIN_STMT
+  _2 = config->pinPortIdx;
+  _3 = _2 <= 31;
+  DevAssert (_3);
+  # DEBUG BEGIN_STMT
+  _4 = config->portBase;
+  _5 = config->pinPortIdx;
+  _6 = _4->PCR[_5];
+  _7 = _6 & 32768;
+  _8 = _7 == 0;
+  DevAssert (_8);
+  # DEBUG BEGIN_STMT
+  _9 = config->pullConfig;
+  if (_9 != 2)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  pinsValues = pinsValues | 2;
+  # DEBUG BEGIN_STMT
+  _10 = config->pullConfig;
+  _11 = _10 & 1;
+  pinsValues = pinsValues | _11;
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  _12 = config->driveStrength;
+  _13 = _12 << 6;
+  _14 = _13 & 64;
+  pinsValues = pinsValues | _14;
+  # DEBUG BEGIN_STMT
+  _15 = config->lockRegister;
+  _16 = _15 << 15;
+  _17 = _16 & 65535;
+  pinsValues = pinsValues | _17;
+  # DEBUG BEGIN_STMT
+  _18 = config->passiveFilter;
+  if (_18 != 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  iftmp.1 = 16;
+  goto <bb 7>; [INV]
+
+  <bb 6> :
+  iftmp.1 = 0;
+
+  <bb 7> :
+  pinsValues = iftmp.1 | pinsValues;
+  # DEBUG BEGIN_STMT
+  _19 = config->mux;
+  _20 = _19 << 8;
+  _21 = _20 & 1792;
+  pinsValues = pinsValues | _21;
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Port_PORT_EXCLUSIVE_AREA_01 ();
+  # DEBUG BEGIN_STMT
+  _22 = config->portBase;
+  digitalFilters = _22->DFER;
+  # DEBUG BEGIN_STMT
+  _23 = config->pinPortIdx;
+  _24 = 1 << _23;
+  _25 = ~_24;
+  digitalFilters = digitalFilters & _25;
+  # DEBUG BEGIN_STMT
+  _26 = config->digitalFilter;
+  if (_26 != 0)
+    goto <bb 8>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 8> :
+  iftmp.2 = 1;
+  goto <bb 10>; [INV]
+
+  <bb 9> :
+  iftmp.2 = 0;
+
+  <bb 10> :
+  _27 = config->pinPortIdx;
+  _28 = iftmp.2 << _27;
+  digitalFilters = digitalFilters | _28;
+  # DEBUG BEGIN_STMT
+  _29 = config->portBase;
+  _29->DFER = digitalFilters;
+  # DEBUG BEGIN_STMT
+  _30 = config->mux;
+  if (_30 == 1)
+    goto <bb 11>; [INV]
+  else
+    goto <bb 19>; [INV]
+
+  <bb 11> :
+  # DEBUG BEGIN_STMT
+  _31 = config->direction;
+  if (_31 == 2)
+    goto <bb 12>; [INV]
+  else
+    goto <bb 17>; [INV]
+
+  <bb 12> :
+  # DEBUG BEGIN_STMT
+  _32 = config->initValue;
+  if (_32 == 1)
+    goto <bb 13>; [INV]
+  else
+    goto <bb 14>; [INV]
+
+  <bb 13> :
+  # DEBUG BEGIN_STMT
+  _33 = config->gpioBase;
+  _34 = _33->PSOR;
+  _35 = config->pinPortIdx;
+  _36 = 1 << _35;
+  _37 = config->gpioBase;
+  _38 = _34 | _36;
+  _37->PSOR = _38;
+  goto <bb 16>; [INV]
+
+  <bb 14> :
+  # DEBUG BEGIN_STMT
+  _39 = config->initValue;
+  if (_39 == 0)
+    goto <bb 15>; [INV]
+  else
+    goto <bb 16>; [INV]
+
+  <bb 15> :
+  # DEBUG BEGIN_STMT
+  _40 = config->gpioBase;
+  _41 = _40->PCOR;
+  _42 = config->pinPortIdx;
+  _43 = 1 << _42;
+  _44 = config->gpioBase;
+  _45 = _41 | _43;
+  _44->PCOR = _45;
+
+  <bb 16> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _46 = config->gpioBase;
+  _47 = _46->PDDR;
+  _48 = config->pinPortIdx;
+  _49 = 1 << _48;
+  _50 = config->gpioBase;
+  _51 = _47 | _49;
+  _50->PDDR = _51;
+  goto <bb 19>; [INV]
+
+  <bb 17> :
+  # DEBUG BEGIN_STMT
+  _52 = config->gpioBase;
+  _53 = _52->PDDR;
+  _54 = config->pinPortIdx;
+  _55 = 1 << _54;
+  _56 = ~_55;
+  _57 = config->gpioBase;
+  _58 = _53 & _56;
+  _57->PDDR = _58;
+  # DEBUG BEGIN_STMT
+  _59 = config->direction;
+  if (_59 == 3)
+    goto <bb 18>; [INV]
+  else
+    goto <bb 19>; [INV]
+
+  <bb 18> :
+  # DEBUG BEGIN_STMT
+  _60 = config->gpioBase;
+  _61 = _60->PIDR;
+  _62 = config->pinPortIdx;
+  _63 = 1 << _62;
+  _64 = config->gpioBase;
+  _65 = _61 | _63;
+  _64->PIDR = _65;
+
+  <bb 19> :
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Port_PORT_EXCLUSIVE_AREA_01 ();
+  # DEBUG BEGIN_STMT
+  _66 = config->portBase;
+  _67 = config->pinPortIdx;
+  _66->PCR[_67] = pinsValues;
+  return;
+
+}
+
+
+DevAssert (volatile boolean x)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  x.0_1 = x;
+  if (x.0_1 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 3>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  goto <bb 3>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+

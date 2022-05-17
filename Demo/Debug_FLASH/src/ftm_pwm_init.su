@@ -1,0 +1,2 @@
+ftm_pwm_init.c:10:6:FTM0_PWM_INIT	16	static
+ftm_pwm_init.c:18:6:FTM0_PWM_DEINIT	0	static

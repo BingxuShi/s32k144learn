@@ -1,0 +1,41 @@
+main ()
+{
+  int D.6315;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  Clock_Ip_Init (&Mcu_aClockConfigPB[0]);
+  # DEBUG BEGIN_STMT
+  Port_Ci_Port_Ip_Init (6, &g_pin_mux_InitConfigArr0);
+  # DEBUG BEGIN_STMT
+  INTERRUPT_INIT ();
+  # DEBUG BEGIN_STMT
+  LPUART_INIT ();
+  # DEBUG BEGIN_STMT
+  U1_printf ("hello hello hello\r\n");
+  # DEBUG BEGIN_STMT
+  FTM0_PWM_INIT ();
+  # DEBUG BEGIN_STMT
+  FLEXCAN0_INIT ();
+  # DEBUG BEGIN_STMT
+  FLEXCAN0_RX_INIT ();
+  # DEBUG BEGIN_STMT
+  FLEXCAN0_SEND ();
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  exit_code.0_1 = exit_code;
+  if (exit_code.0_1 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 3>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  D.6315 = exit_code;
+  return D.6315;
+
+}
+
+

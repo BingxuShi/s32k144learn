@@ -1,0 +1,758 @@
+FTM_0_CH_0_CH_1_ISR ()
+{
+  uint8 channel;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  channel = 0;
+  # DEBUG BEGIN_STMT
+  channel = 0;
+  goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_ProcessCommonInterrupt (0, channel);
+  # DEBUG BEGIN_STMT
+  channel.1_1 = channel;
+  channel = channel.1_1 + 1;
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  if (channel <= 1)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" DSB");
+  return;
+
+}
+
+
+Ftm_Gpt_Ip_SetHalfCycleReloadPoint (uint8 instance, uint16 reloadPoint)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = (int) instance;
+  _2 = ftmGptBase[_1];
+  Ftm_Gpt_Ip_SetHalfCycleValue (_2, reloadPoint);
+  return;
+
+}
+
+
+Ftm_Gpt_Ip_DisableChannelInterrupt (uint8 instance, uint8 channel)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_EnableInterrupt (instance, channel, 0);
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_ClearInterruptFlag (instance, channel);
+  return;
+
+}
+
+
+Ftm_Gpt_Ip_EnableChannelInterrupt (uint8 instance, uint8 channel)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_ClearInterruptFlag (instance, channel);
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_EnableInterrupt (instance, channel, 1);
+  return;
+
+}
+
+
+Ftm_Gpt_Ip_StopTimer (uint8 instance)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_FTMEnable (instance, 0);
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_SetClockSource (instance, 0);
+  return;
+
+}
+
+
+Ftm_Gpt_Ip_StartTimer (uint8 instance, uint16 counterValue)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_SetClockSource (instance, 1);
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_SetCounterInitVal (instance, counterValue);
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_FTMEnable (instance, 1);
+  return;
+
+}
+
+
+Ftm_Gpt_Ip_StartCounting (uint8 instance, uint8 channel, uint16 compareValue)
+{
+  uint32 counterValue;
+  uint32 currentCntValue;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  currentCntValue = Ftm_Gpt_Ip_GetCntValue (instance);
+  # DEBUG BEGIN_STMT
+  _1 = (long unsigned int) compareValue;
+  _2 = currentCntValue + _1;
+  if (_2 > 65535)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  _3 = (long unsigned int) compareValue;
+  _4 = currentCntValue + _3;
+  counterValue = _4 + 4294901761;
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  _5 = (long unsigned int) compareValue;
+  counterValue = currentCntValue + _5;
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_SetCompareValue (instance, channel, counterValue);
+  # DEBUG BEGIN_STMT
+  _6 = (int) instance;
+  _7 = (int) channel;
+  _8 = (long unsigned int) compareValue;
+  Ftm_Gpt_Ip_u32TargetValue[_6][_7] = _8;
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_ClearInterruptFlag (instance, channel);
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_EnableInterrupt (instance, channel, 1);
+  return;
+
+}
+
+
+Ftm_Gpt_Ip_Deinit (uint8 instance)
+{
+  uint8 channelIndex;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  channelIndex = 0;
+  goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_EnableInterrupt (instance, channelIndex, 0);
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_ClearInterruptFlag (instance, channelIndex);
+  # DEBUG BEGIN_STMT
+  channelIndex.0_1 = channelIndex;
+  channelIndex = channelIndex.0_1 + 1;
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  if (channelIndex <= 7)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_SetClockSource (instance, 0);
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_FTMEnable (instance, 0);
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_SetFreezebit (instance, 0);
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_SetCounterInitVal (instance, 0);
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_SetCounter (instance, 0);
+  return;
+
+}
+
+
+Ftm_Gpt_Ip_InitChannel (uint8 instance, const struct Ftm_Gpt_Ip_ChannelConfigType * configPtr)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = configPtr->hwChannel;
+  Ftm_Gpt_Ip_EnableInterrupt (instance, _1, 0);
+  # DEBUG BEGIN_STMT
+  _2 = configPtr->hwChannel;
+  Ftm_Gpt_Ip_ClearInterruptFlag (instance, _2);
+  # DEBUG BEGIN_STMT
+  _3 = configPtr->hwChannel;
+  Ftm_Gpt_Ip_SetCompareValue (instance, _3, 65535);
+  # DEBUG BEGIN_STMT
+  _4 = configPtr->hwChannel;
+  Ftm_Gpt_Ip_ModeSelectA (instance, _4, 1);
+  # DEBUG BEGIN_STMT
+  _5 = (int) instance;
+  _6 = configPtr->hwChannel;
+  _7 = (int) _6;
+  Ftm_Gpt_Ip_u32ChState[_5][_7].chInit = 1;
+  # DEBUG BEGIN_STMT
+  _8 = (int) instance;
+  _9 = configPtr->hwChannel;
+  _10 = (int) _9;
+  _11 = configPtr->callback;
+  Ftm_Gpt_Ip_u32ChState[_8][_10].callback = _11;
+  # DEBUG BEGIN_STMT
+  _12 = (int) instance;
+  _13 = configPtr->hwChannel;
+  _14 = (int) _13;
+  _15 = configPtr->callbackParam;
+  Ftm_Gpt_Ip_u32ChState[_12][_14].callbackParam = _15;
+  return;
+
+}
+
+
+Ftm_Gpt_Ip_Init (uint8 instance, const struct Ftm_Gpt_Ip_InstanceConfigType * configPtr)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _1 = configPtr->mode;
+  if (_1 == 1)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  _2 = (int) instance;
+  _3 = ftmGptBase[_2];
+  _4 = configPtr->clocksource;
+  _5 = configPtr->clockPrescaler;
+  Ftm_Gpt_Ip_Configure (_3, _4, _5);
+  # DEBUG BEGIN_STMT
+  _6 = configPtr->freezeBit;
+  Ftm_Gpt_Ip_SetFreezebit (instance, _6);
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_SetCounterInitVal (instance, 1);
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_WriteModulo (instance, 65535);
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_FTMEnable (instance, 1);
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+
+Ftm_Gpt_Ip_ProcessCommonInterrupt (uint8 instance, uint8 channel)
+{
+  uint32 targetValue;
+  uint32 oldCmpValue;
+  uint32 interruptEnabled;
+  uint32 flag;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  oldCmpValue = 0;
+  # DEBUG BEGIN_STMT
+  targetValue = 0;
+  # DEBUG BEGIN_STMT
+  flag = Ftm_Gpt_Ip_GetInterruptFlag (instance, channel);
+  # DEBUG BEGIN_STMT
+  interruptEnabled = Ftm_Gpt_Ip_GetInterruptBit (instance, channel);
+  # DEBUG BEGIN_STMT
+  Ftm_Gpt_Ip_ClearInterruptFlag (instance, channel);
+  # DEBUG BEGIN_STMT
+  if (flag == 1)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 3> :
+  if (interruptEnabled == 1)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  oldCmpValue = Ftm_Gpt_Ip_GetCompareValue (instance, channel);
+  # DEBUG BEGIN_STMT
+  _1 = (int) instance;
+  _2 = (int) channel;
+  targetValue = Ftm_Gpt_Ip_u32TargetValue[_1][_2];
+  # DEBUG BEGIN_STMT
+  _3 = oldCmpValue + targetValue;
+  if (_3 > 65535)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  _4 = oldCmpValue + targetValue;
+  _5 = _4 + 4294901761;
+  Ftm_Gpt_Ip_SetCompareValue (instance, channel, _5);
+  goto <bb 7>; [INV]
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  _6 = oldCmpValue + targetValue;
+  Ftm_Gpt_Ip_SetCompareValue (instance, channel, _6);
+
+  <bb 7> :
+  # DEBUG BEGIN_STMT
+  _7 = (int) instance;
+  _8 = (int) channel;
+  _9 = Ftm_Gpt_Ip_u32ChState[_7][_8].chInit;
+  if (_9 != 0)
+    goto <bb 8>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 8> :
+  _10 = (int) instance;
+  _11 = (int) channel;
+  _12 = Ftm_Gpt_Ip_u32ChState[_10][_11].callback;
+  if (_12 != 0B)
+    goto <bb 9>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 9> :
+  # DEBUG BEGIN_STMT
+  _13 = (int) instance;
+  _14 = (int) channel;
+  _15 = Ftm_Gpt_Ip_u32ChState[_13][_14].callback;
+  _16 = (int) instance;
+  _17 = (int) channel;
+  _18 = Ftm_Gpt_Ip_u32ChState[_16][_17].callbackParam;
+  _15 (_18);
+
+  <bb 10> :
+  return;
+
+}
+
+
+Ftm_Gpt_Ip_GetInterruptBit (uint8 instance, uint8 channel)
+{
+  uint32 flag;
+  uint32 D.6032;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  flag = 0;
+  # DEBUG BEGIN_STMT
+  _1 = (int) instance;
+  _2 = ftmGptBase[_1];
+  _3 = (int) channel;
+  _4 = _2->CONTROLS[_3].CSC;
+  _5 = _4 >> 6;
+  flag = _5 & 1;
+  # DEBUG BEGIN_STMT
+  D.6032 = flag;
+  return D.6032;
+
+}
+
+
+Ftm_Gpt_Ip_GetInterruptFlag (uint8 instance, uint8 channel)
+{
+  uint32 flag;
+  uint32 D.6030;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  flag = 0;
+  # DEBUG BEGIN_STMT
+  _1 = (int) instance;
+  _2 = ftmGptBase[_1];
+  _3 = (int) channel;
+  _4 = _2->CONTROLS[_3].CSC;
+  _5 = _4 >> 7;
+  flag = _5 & 1;
+  # DEBUG BEGIN_STMT
+  D.6030 = flag;
+  return D.6030;
+
+}
+
+
+Ftm_Gpt_Ip_GetCompareValue (uint8 instance, uint8 channel)
+{
+  uint32 currentCmpValue;
+  uint32 D.6028;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _1 = (int) instance;
+  _2 = ftmGptBase[_1];
+  _3 = (int) channel;
+  currentCmpValue = _2->CONTROLS[_3].CV;
+  # DEBUG BEGIN_STMT
+  D.6028 = currentCmpValue;
+  return D.6028;
+
+}
+
+
+Ftm_Gpt_Ip_SetHalfCycleValue (struct FTM_Type * const base, uint16 value)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = (long unsigned int) value;
+  base->HCR = _1;
+  return;
+
+}
+
+
+Ftm_Gpt_Ip_ModeSelectA (uint8 instance, uint8 channel, boolean enable)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_26 ();
+  # DEBUG BEGIN_STMT
+  if (enable != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  _1 = (int) instance;
+  _2 = ftmGptBase[_1];
+  _3 = (int) channel;
+  _4 = _2->CONTROLS[_3].CSC;
+  _5 = (int) instance;
+  _6 = ftmGptBase[_5];
+  _7 = (int) channel;
+  _8 = _4 | 16;
+  _6->CONTROLS[_7].CSC = _8;
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  _9 = (int) instance;
+  _10 = ftmGptBase[_9];
+  _11 = (int) channel;
+  _12 = _10->CONTROLS[_11].CSC;
+  _13 = (int) instance;
+  _14 = ftmGptBase[_13];
+  _15 = (int) channel;
+  _16 = _12 & 4294967279;
+  _14->CONTROLS[_15].CSC = _16;
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_26 ();
+  return;
+
+}
+
+
+Ftm_Gpt_Ip_GetCntValue (uint8 instance)
+{
+  uint32 currentCntValue;
+  uint32 D.6026;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _1 = (int) instance;
+  _2 = ftmGptBase[_1];
+  currentCntValue = _2->CNT;
+  # DEBUG BEGIN_STMT
+  D.6026 = currentCntValue;
+  return D.6026;
+
+}
+
+
+Ftm_Gpt_Ip_GetCounter (uint8 instance)
+{
+  uint32 currentCounterValue;
+  uint32 D.6024;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  currentCounterValue = 0;
+  # DEBUG BEGIN_STMT
+  currentCounterValue = Ftm_Gpt_Ip_GetCntValue (instance);
+  # DEBUG BEGIN_STMT
+  D.6024 = currentCounterValue;
+  return D.6024;
+
+}
+
+
+Ftm_Gpt_Ip_WriteModulo (uint8 instance, uint16 value)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = (int) instance;
+  _2 = ftmGptBase[_1];
+  _3 = (long unsigned int) value;
+  _2->MOD = _3;
+  return;
+
+}
+
+
+Ftm_Gpt_Ip_SetCompareValue (uint8 instance, uint8 channel, uint32 value)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = (int) instance;
+  _2 = ftmGptBase[_1];
+  _3 = (int) channel;
+  _4 = value & 65535;
+  _2->CONTROLS[_3].CV = _4;
+  return;
+
+}
+
+
+Ftm_Gpt_Ip_FTMEnable (uint8 instance, boolean enable)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_25 ();
+  # DEBUG BEGIN_STMT
+  if (enable != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  _1 = (int) instance;
+  _2 = ftmGptBase[_1];
+  _3 = _2->MODE;
+  _4 = (int) instance;
+  _5 = ftmGptBase[_4];
+  _6 = _3 | 1;
+  _5->MODE = _6;
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  _7 = (int) instance;
+  _8 = ftmGptBase[_7];
+  _9 = _8->MODE;
+  _10 = (int) instance;
+  _11 = ftmGptBase[_10];
+  _12 = _9 & 4294967294;
+  _11->MODE = _12;
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_25 ();
+  return;
+
+}
+
+
+Ftm_Gpt_Ip_SetClockSource (uint8 instance, Ftm_Gpt_Ip_ClockSource clocksource)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_24 ();
+  # DEBUG BEGIN_STMT
+  _1 = (int) instance;
+  _2 = ftmGptBase[_1];
+  _3 = _2->SC;
+  _4 = _3 & 4294967271;
+  _5 = clocksource << 3;
+  _6 = _5 & 24;
+  _7 = (int) instance;
+  _8 = ftmGptBase[_7];
+  _9 = _4 | _6;
+  _8->SC = _9;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_24 ();
+  return;
+
+}
+
+
+Ftm_Gpt_Ip_EnableInterrupt (uint8 instance, uint8 channel, boolean enable)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_23 ();
+  # DEBUG BEGIN_STMT
+  if (enable != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  _1 = (int) instance;
+  _2 = ftmGptBase[_1];
+  _3 = (int) channel;
+  _4 = _2->CONTROLS[_3].CSC;
+  _5 = (int) instance;
+  _6 = ftmGptBase[_5];
+  _7 = (int) channel;
+  _8 = _4 | 64;
+  _6->CONTROLS[_7].CSC = _8;
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  _9 = (int) instance;
+  _10 = ftmGptBase[_9];
+  _11 = (int) channel;
+  _12 = _10->CONTROLS[_11].CSC;
+  _13 = (int) instance;
+  _14 = ftmGptBase[_13];
+  _15 = (int) channel;
+  _16 = _12 & 4294967231;
+  _14->CONTROLS[_15].CSC = _16;
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_23 ();
+  return;
+
+}
+
+
+Ftm_Gpt_Ip_ClearInterruptFlag (uint8 instance, uint8 channel)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_22 ();
+  # DEBUG BEGIN_STMT
+  _1 = (int) instance;
+  _2 = ftmGptBase[_1];
+  _3 = (int) channel;
+  _4 = _2->CONTROLS[_3].CSC;
+  _5 = (int) instance;
+  _6 = ftmGptBase[_5];
+  _7 = (int) channel;
+  _8 = _4 & 4294967167;
+  _6->CONTROLS[_7].CSC = _8;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_22 ();
+  return;
+
+}
+
+
+Ftm_Gpt_Ip_SetCounter (uint8 instance, uint16 value)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = (int) instance;
+  _2 = ftmGptBase[_1];
+  _3 = (long unsigned int) value;
+  _2->CNT = _3;
+  return;
+
+}
+
+
+Ftm_Gpt_Ip_SetCounterInitVal (uint8 instance, uint16 value)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = (int) instance;
+  _2 = ftmGptBase[_1];
+  _3 = (long unsigned int) value;
+  _2->CNTIN = _3;
+  return;
+
+}
+
+
+Ftm_Gpt_Ip_Configure (struct FTM_Type * const base, Ftm_Gpt_Ip_ClockSource clocksource, uint8 prescalerValue)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_21 ();
+  # DEBUG BEGIN_STMT
+  _1 = base->SC;
+  _2 = _1 & 4294967271;
+  _3 = clocksource << 3;
+  _4 = _3 & 24;
+  _5 = _2 | _4;
+  base->SC = _5;
+  # DEBUG BEGIN_STMT
+  _6 = base->SC;
+  _7 = _6 & 4294967288;
+  _8 = (long unsigned int) prescalerValue;
+  _9 = _8 & 7;
+  _10 = _7 | _9;
+  base->SC = _10;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_21 ();
+  return;
+
+}
+
+
+Ftm_Gpt_Ip_SetFreezebit (uint8 instance, boolean freezeBit)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_17 ();
+  # DEBUG BEGIN_STMT
+  _1 = (int) instance;
+  _2 = ftmGptBase[_1];
+  _3 = _2->CONF;
+  _4 = (int) instance;
+  _5 = ftmGptBase[_4];
+  _6 = _3 & 4294955007;
+  _5->CONF = _6;
+  # DEBUG BEGIN_STMT
+  if (freezeBit != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  _7 = (int) instance;
+  _8 = ftmGptBase[_7];
+  _9 = (int) instance;
+  _10 = ftmGptBase[_9];
+  _11 = _8->CONF;
+  _10->CONF = _11;
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  _12 = (int) instance;
+  _13 = ftmGptBase[_12];
+  _14 = _13->CONF;
+  _15 = (int) instance;
+  _16 = ftmGptBase[_15];
+  _17 = _14 | 192;
+  _16->CONF = _17;
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_17 ();
+  return;
+
+}
+
+

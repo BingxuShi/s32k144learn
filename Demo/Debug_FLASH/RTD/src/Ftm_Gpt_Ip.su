@@ -1,0 +1,15 @@
+Ftm_Gpt_Ip.c:419:20:Ftm_Gpt_Ip_ClearInterruptFlag	16	static
+Ftm_Gpt_Ip.c:544:8:Ftm_Gpt_Ip_GetCounter	0	static
+Ftm_Gpt_Ip.c:642:8:Ftm_Gpt_Ip_GetCompareValue	0	static
+Ftm_Gpt_Ip.c:660:8:Ftm_Gpt_Ip_GetInterruptFlag	0	static
+Ftm_Gpt_Ip.c:678:8:Ftm_Gpt_Ip_GetInterruptBit	0	static
+Ftm_Gpt_Ip.c:754:6:Ftm_Gpt_Ip_Init	24	static
+Ftm_Gpt_Ip.c:803:6:Ftm_Gpt_Ip_InitChannel	24	static
+Ftm_Gpt_Ip.c:842:6:Ftm_Gpt_Ip_Deinit	24	static
+Ftm_Gpt_Ip.c:881:6:Ftm_Gpt_Ip_StartCounting	16	static
+Ftm_Gpt_Ip.c:920:6:Ftm_Gpt_Ip_StartTimer	16	static
+Ftm_Gpt_Ip.c:946:6:Ftm_Gpt_Ip_StopTimer	8	static
+Ftm_Gpt_Ip.c:969:6:Ftm_Gpt_Ip_EnableChannelInterrupt	16	static
+Ftm_Gpt_Ip.c:994:6:Ftm_Gpt_Ip_DisableChannelInterrupt	16	static
+Ftm_Gpt_Ip.c:1019:6:Ftm_Gpt_Ip_SetHalfCycleReloadPoint	0	static
+Ftm_Gpt_Ip.c:1236:1:FTM_0_CH_0_CH_1_ISR	32	static
